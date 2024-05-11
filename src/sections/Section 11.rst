@@ -17,7 +17,7 @@ curves show a letter “S” shape.
 
 **Barcode:** fragment of DNA used for taxonomic identification of species.
 
-**Bioinformatics:**use of programs and softwares (most often command line tools) to process
+**Bioinformatics:** use of programs and softwares (most often command line tools) to process
 raw sequencing data.
 
 **Bioinformatic pipeline:** automated workflow of bioinformatics analyses
