@@ -10,7 +10,7 @@ feces, urine, saliva, and shed skin, scales or hair. Mentions of eDNA appeared f
 in the literature in 1987 (extraction of DNA from sediments; Ogram, Sayler, and Barkay 1987)
 and were extended to macro-organisms by the end of the 2000s (see Taberlet et al. 2018 for
 a review on the timeline for eDNA studies). Note that the definition of eDNA is still debated
-(see Pawlowski, Apothéloz-Perret-Gentil, and Altermatt, 2020) for a review). In this manual
+(see Pawlowski, Apothéloz-Perret-Gentil, and Altermatt, 2020 for a review). In this manual
 we refer to the general concept of eDNA, that is a total pool of DNA isolated from
 environmental samples independently of its structural state (intra/extra-cellular) (Taberlet et
 al. 2012; Pawlowski, Apothéloz-Perret-Gentil, and Altermatt 2020).
