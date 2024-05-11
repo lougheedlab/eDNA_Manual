@@ -50,8 +50,14 @@ sterilized. Because of the price and the need for a clean eDNA dedicated space (
 often more cost-effective to collaborate with eDNA researchers or use services provided by
 companies. See :numref:`flowchart_with_costs` for rough estimates on costs and labour requirements.
 
-- Examples of academic eDNA research labs in Canada: Lougheed Lab (Queen’s University, ON), Clare Lab (York University, ON), Cristescu Lab (McGill University, QC) Hanner Lab (University of Guelph, ON), Poesch Lab (University of Alberta, AL), Helbing Lab (University of Victoria, BC). There are many such facilities in the USA, European and Asian countries, and other regions of the world.
-- Examples of organizations offering eDNA services in Canada: Nature Metrics (https://www.naturemetrics.co.uk/northamerica/), eDNATec (https://ednatec.com/solutions/our-services/), Bureau Veritas (https://www.bvna.com/sites/g/files/zypfnx386/files/media/document/eDNA%20Testing.pdf; qPCR only), UNBC Genetics Lab (https://www2.unbc.ca/genetics/pricing).
+- Examples of academic eDNA research labs in Canada: Lougheed Lab (Queen’s University, ON),
+  Clare Lab (York University, ON), Cristescu Lab (McGill University, QC) Hanner Lab (University of Guelph, ON),
+  Poesch Lab (University of Alberta, AL), Helbing Lab (University of Victoria, BC). There are many such facilities in
+  the USA, European and Asian countries, and other regions of the world.
+- Examples of organizations offering eDNA services in Canada:
+  Nature Metrics (https://www.naturemetrics.co.uk/northamerica/), eDNATec (https://ednatec.com/solutions/our-services/),
+  Bureau Veritas (https://www.bvna.com/sites/g/files/zypfnx386/files/media/document/eDNA%20Testing.pdf; qPCR only),
+  UNBC Genetics Lab (https://www2.unbc.ca/genetics/pricing).
 
 **Table 1.** A list of some laboratory apparatus required for an eDNA clean space. Higher budget
 labs may have additional equipment such as a positive airflow room. Prices are list prices in
@@ -352,7 +358,7 @@ Biorad CFX Maestro® software. Note that outputs and options may vary from one s
 package to another, so please refer to relevant user manuals.
 
 Amplification chart
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 The amplification chart displays the fluorescence intensity (relative fluorescence unit or
 RFU) plotted against the number of cycles. There is one curve per fluorophore per well.
@@ -377,7 +383,7 @@ point of individual fluorescence traces”.*
    that sample. Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
 
 Standard curve
---------------
+~~~~~~~~~~~~~~
 
 The vertical axis shows the Cq value and the horizontal axis shows the log of the starting
 concentration (log starting quantity). The legend shows the type of DNA template (standard
@@ -402,7 +408,7 @@ values that are too low or high: https://biosistemika.com/blog/qpcr-efficiency-o
    transformed). Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
 
 Melting curve
--------------
+~~~~~~~~~~~~~
 
 Melting curves are a low cost, within assay method for determining if your
 intercalating dye (SYBR Green) based qPCR has produced a single product. Intercalating dyes
@@ -429,13 +435,15 @@ https://www.idtdna.com/pages/education/decoded/article/interpreting-melt-curves-
    peak at approximately 76°C is a primer/dimer. Taken from Bio-Rad CFX Manager 3.1 software
    (Bio-Rad Laboratories, Inc).
 
-**Data table**
+Data table
+~~~~~~~~~~
 
 The data table displays the Cq value of each curve, Cq mean and Standard Deviation
 per group of replicates, Starting quantity (SQ; select the unit in Settings), Log SQ and SQ mean
 (select the unit in Settings) per group of replicates.
 
-**ddPCR**
+ddPCR
+-----
 
 The first ddPCR output to check is the number of droplets generated for each sample.
 The number of droplets must be equal or superior to 10,000 and uniform among samples to
