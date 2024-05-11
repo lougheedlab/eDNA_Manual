@@ -35,7 +35,7 @@ values are not necessarily proportional to original concentration in the environ
 (stochasticity and amplification bias; Kelly, Shelton, and Gallego 2019).
 
 .. _pcr_phases:
-.. figure:: ../figures/Figure_5.png
+.. figure:: ../images/Figure_5.png
    :alt: PCR phases.
 
    PCR phases. i) Denaturation (92°-95°C): heat denatures DNA strands into single-stranded
@@ -85,7 +85,7 @@ volume (Langlois et al. 2021). When using extracted DNA, it is typically best to
 identity of the sample through PCR and Sanger sequencing if possible.
 
 .. _fig6:
-.. figure:: ../figures/Figure_6.png
+.. figure:: ../images/Figure_6.png
    :alt: Fluorescence emission across cycles and standard curve results.
 
    **A)** Fluorescence emission across cycles. Phase 1 is defined by fluorescence emission
@@ -203,7 +203,7 @@ quantified concentration can be more accurate than qPCR especially at low concen
 of April, 2024, Bio-Rad is the only supplier of ddPCR systems (see references).
 
 .. _ddPCR:
-.. figure:: ../figures/Figure_7.png
+.. figure:: ../images/Figure_7.png
    :alt: ddPCR workflow and graphic output.
 
    ddPCR workflow and graphic output.
@@ -241,7 +241,7 @@ scale. Nevertheless, the use of LAMP in biomedical and environmental detection h
 significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
 
 .. _lamp1:
-.. figure:: ../figures/Missing.png
+.. figure:: ../images/Missing.png
    :alt: Primers used in LAMP.
 
    Primers used in LAMP. The boxes on the lines represent different parts of the target
@@ -250,7 +250,7 @@ significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
    sequence they are from. Primers are approximately 20 bp long.
 
 .. _lamp2:
-.. figure:: ../figures/Missing.png
+.. figure:: ../images/Missing.png
    :alt: LAMP process.
 
    LAMP process.

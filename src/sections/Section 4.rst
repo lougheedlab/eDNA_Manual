@@ -64,7 +64,7 @@ reporting as many parameters as possible, and using analytical controls during w
 and processing.
 
 .. _processes:
-.. figure:: ../figures/Figure_2.png
+.. figure:: ../images/Figure_2.png
    :alt: Illustration of the processes (shedding, degradation, retention, resuspension, transportation)
          influencing eDNA detection in the environment.
 
@@ -79,7 +79,7 @@ processing, detection criteria, and statistical analyses (Goldberg, Turner, et a
 :numref:`flowchart` for a workflow chart and recommended reporting at each stage.
 
 .. _flowchart:
-.. figure:: ../figures/Missing.png
+.. figure:: ../images/Missing.png
    :alt: Conceptual flowchart of a potential workflow for developing an eDNA study, with
          minimum recommended reporting standards for each stage.
 

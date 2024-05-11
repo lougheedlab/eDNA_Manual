@@ -53,7 +53,7 @@ obitools, Pear.
 obitools, Pear.
 
 .. _conc_r1_r2:
-.. figure:: ../figures/Figure_22.png
+.. figure:: ../images/Figure_22.png
    :alt: Calculation of R1 and R2 overlap length.
 
    Calculation of R1 and R2 overlap length.
@@ -114,7 +114,7 @@ base pair difference.
 **BOX 2.** Obiclean (obitools; Boyer et al. 2016) denoising function. A sequence can be tagged
 as head, internal or singleton.
 
-.. image:: ../figures/Box_2.png
+.. image:: ../images/Box_2.png
    :alt: Box 2
 
 Some species may be split across several ESVs due to intra-species variation. An
@@ -139,7 +139,7 @@ known composition) to explore this
 **Examples of software:** OBITools, VSEARCH, DADA2, SWARM
 
 .. _clustering:
-.. figure:: ../figures/Figure_23.png
+.. figure:: ../images/Figure_23.png
    :alt: Clustering methods.
 
    Clustering methods using A) a global threshold (left), B) a local threshold (right).
@@ -220,7 +220,7 @@ value”, “Perc. Ident”, “Acc. Len”, “Accession”. The matching seque
 sequences or hits (:numref:`fig_blast`).
 
 .. _fig_blast:
-.. figure:: ../figures/Figure_24.png
+.. figure:: ../images/Figure_24.png
    :alt: Example of BLAST output. Sequence is identified as Coturnix sp. (resolution at the
     genus level) as both Coturnix japonica and Coturnix coturnix show high query cover (100% and
     97%, respectively) and 100% percentage identity.

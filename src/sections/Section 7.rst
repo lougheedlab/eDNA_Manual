@@ -63,7 +63,7 @@ taxonomic identification and resolution remains challenged by incomplete referen
 databases and intraspecies variation in genomic and organellar DNA (Singer et al., 2020).
 
 .. _scholar:
-.. figure:: ../figures/Missing.png
+.. figure:: ../images/Missing.png
    :alt: Bar chart depicting the number of publications using the terms “eDNA
          Metabarcoding” found in Google scholar each year since the term was introduced in 2012.
          Data accessed on April 18, 2024.
@@ -133,7 +133,7 @@ al. 2018). In some cases correlation between biomass and relative read abundance
 shown (Schenk et al. 2019), but it is currently not possible to link the number of reads to the
 number of individuals in all scenarios.
 
-.. figure:: ../figures/Figure_11.png
+.. figure:: ../images/Figure_11.png
    :alt: Two-step PCR workflow.
 
    Two-step PCR workflow.

@@ -32,7 +32,7 @@ overcoming the need of capturing or indeed even seeing individuals to detect the
 species (Thomsen and Willerslev 2015).
 
 .. _workflow:
-.. figure:: ../figures/Figure_1.png
+.. figure:: ../images/Figure_1.png
    :alt: Traditional barcoding workflow.
 
    Traditional barcoding workflow.

@@ -28,7 +28,7 @@ Identifying taxa from an eDNA sample can be done using different approaches,
 depending on the aim of the study (:numref:`approach`), and are described in the sections below.
 
 .. _approach:
-.. figure:: ../figures/Figure_4.png
+.. figure:: ../images/Figure_4.png
    :alt: eDNA species-specific and multi-species approach.
 
    eDNA species-specific and multi-species approach.
