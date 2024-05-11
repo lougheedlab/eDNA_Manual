@@ -1,7 +1,3 @@
-
-
-
-
 ==================================================================
 An Overview and Guide to Environmental DNA Protocols and Workflows
 ==================================================================
@@ -26,7 +22,3 @@ CC-BY-4.0 Creative Commons License 2022-2024
 
 **How to cite this document:** Tournayre, O. Tian, H., Maracle, S., R., & Lougheed, S. C. (2024). An overview and guide to
 environmental DNA protocols and workflows. Version 2.01 Queen’s University, Kingston, Ontario, Canada.
-
-
-
-

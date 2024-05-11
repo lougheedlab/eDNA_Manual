@@ -1,6 +1,7 @@
 .. include:: sections/frontispiece.rst
 
 .. toctree::
+   :caption: Contents
    :maxdepth: 2
    
    sections/acknowledgements

@@ -1,5 +1,3 @@
-
-
 ================
 Acknowledgements
 ================
@@ -13,4 +11,3 @@ South Frontenac Lake Ecosystem grant, and the Baillie Family Chair in Conservati
 BioRad Canada and QIAGEN Canada have generously supported our workshop at QUBS.
 
 .. logos here
-
