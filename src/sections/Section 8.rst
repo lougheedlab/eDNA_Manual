@@ -163,9 +163,8 @@ eDNA sampling & storage
 Please refer to Section 2.1. Sampling strategy, and Figure 2 and Table 1 of Bruce et al.
 (2021) as they provide relevant, detailed guidance for water sampling including when and
 where to sample and sample number/volume in lentic, lotic and marine ecosystems:
-https://www.naturemetrics.co.uk/wpcontent/
-uploads/2022/01/NatureMetrics_Practical_Guide_to_DNA_Kat_Bruce_et_al_2021.
-pdf. It is critical that you report your definition of sampling region, sites, stations, and
+https://ab.pensoft.net/book/68634/.
+It is critical that you report your definition of sampling region, sites, stations, and
 replicates in whatever materials you produce from your eDNA research (Table 3).
 
 In general, your sampling scheme should consider your biological questions, the life
