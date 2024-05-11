@@ -48,7 +48,7 @@ deliver high-quality, validated eDNA data. Clean labs ideally have positive air 
 minimize contamination, HEPA filtration, a one-way workflow, and are easily cleaned and
 sterilized. Because of the price and the need for a clean eDNA dedicated space (Table 1), it is
 often more cost-effective to collaborate with eDNA researchers or use services provided by
-companies. See Figure 12 for rough estimates on costs and labour requirements.
+companies. See :numref:`flowchart_with_costs` for rough estimates on costs and labour requirements.
 
 - Examples of academic eDNA research labs in Canada: Lougheed Lab (Queen’s University, ON), Clare Lab (York University, ON), Cristescu Lab (McGill University, QC) Hanner Lab (University of Guelph, ON), Poesch Lab (University of Alberta, AL), Helbing Lab (University of Victoria, BC). There are many such facilities in the USA, European and Asian countries, and other regions of the world.
 - Examples of organizations offering eDNA services in Canada: Nature Metrics (https://www.naturemetrics.co.uk/northamerica/), eDNATec (https://ednatec.com/solutions/our-services/), Bureau Veritas (https://www.bvna.com/sites/g/files/zypfnx386/files/media/document/eDNA%20Testing.pdf; qPCR only), UNBC Genetics Lab (https://www2.unbc.ca/genetics/pricing).
@@ -61,10 +61,12 @@ Insert Table 1 as image
 
 .. Could embed this as a table using code
 
-Insert Figure 12
+.. _flowchart_with_costs:
+.. figure:: ../figures/Missing.png
+   :alt: Flowchart with rough costs and processing time for potential stages of an eDNA workflow.
 
-**Figure 12.** Flowchart with rough costs and processing time for potential stages of an eDNA
-workflow. All costs are approximate estimates taken from our experiences and are in CAD.
+   Flowchart with rough costs and processing time for potential stages of an eDNA
+   workflow. All costs are approximate estimates taken from our experiences and are in CAD.
 
 Primers and probes design & validation
 ======================================
@@ -90,7 +92,7 @@ efficiency is specific to the qPCR/dPCR platform and reagents it was tested on.
 
 Ideally, primers must be validated in silico (predicted amplification success using
 reference sequences), in vitro (DNA from tissues), and in situ (eDNA samples with known
-presence and known absence of the target species) (Figure 13). Various software and online
+presence and known absence of the target species) (:numref:`flowchart_ssa`). Various software and online
 tools for in silico testing exist. The specificity of species-specific primers are usually evaluated
 “by-eye” (i.e. counting the number of mismatches between primers/probe and template
 sequence in an alignment) or ‘blasted’ in the National Center for Biotechnology Information
@@ -106,14 +108,14 @@ cross-amplification (e.g. Katz et al. 2023, Nordstrom et al. 2023), it has also 
 existing primers from the literature requires significantly less testing than creating an assay de
 novo. For more details on qPCR/dPCR assay development, see:
 
-https://bitesizebio.com/10041/designing-qpcr-primers/
+- https://bitesizebio.com/10041/designing-qpcr-primers/
+- https://blog.addgene.org/deep-dive-qpcr
 
-https://blog.addgene.org/deep-dive-qpcr
+.. _flowchart_ssa:
+.. figure:: ../figures/Missing.png
+   :alt: Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
 
-Insert Figure 13
-
-**Figure 13.** Flowchart of eDNA single species assay (qPCR or dPCR) development and
-validation.
+   Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
 
 Metabarcoding primer development requires significant in silico and in vitro testing.
 Unlike other tools such as the commonly used ecoPCR (Ficetola et al. 2010; Bellemain et al.
@@ -185,7 +187,8 @@ Insert Table 4 as image
 
 .. Could embed this as a table using code
 
-*Precautions to avoid contamination*
+Precautions to avoid contamination
+----------------------------------
 
 Regardless of sampled media (e.g. soil, air, water), equipment (e.g. tweezers for
 handling filters, waders, cooler, reusable sampling bottles) must be decontaminated using
@@ -205,7 +208,8 @@ Insert Table 5 as image
 
 .. Could embed this as a table using code
 
-*Metadata*
+Metadata
+--------
 
 Record essential information such as location, geographical coordinates, date of
 sampling and identity of people who sampled. Also record any supplementary metadata that
@@ -217,7 +221,8 @@ Platform for R (MDMAPR; Yu et al. 2020) can be used to merge raw qPCR fluorescen
 and metadata together to facilitate the spatial visualisation of species presence/absence
 detections.
 
-*Storage until further processing*
+Storage until further processing
+--------------------------------
 
 Warm temperatures and exposure to UV light degrade eDNA. As eDNA degrades quickly,
 it is important to reduce the time between sampling and filtering (water) or sampling and
@@ -265,7 +270,8 @@ tie your hair. Keep track of your work, note sample ID, the protocol and any inf
 could be relevant to interpret the data, including suspicion of contamination between samples
 or human error during processing - we highly recommend that you keep a lab book.
 
-*DNA extraction*
+DNA extraction
+--------------
 
 Ideally, DNA extractions should be done in a dedicated lab space with no PCR-based
 work going on because amplified DNA (millions of copies of amplified DNA) can easily
@@ -279,13 +285,16 @@ Many methods and kits are used for eDNA extraction, the most commonly being the
 QIAGEN Blood and Tissue kit (e.g. Thomsen et al., 2012, Hinlo, Gleeson, and Furlan 2017, Walz,
 Yamahara, and Chavez 2019, Qiagen N.V.), and the cheaper alternative based on chloroformphenol
 reactions (e.g. Turner et al. 2014, Feng, Bulté, and Lougheed, 2020, Chen et al. 2023).
-See Figure 14 for a general eDNA extraction workflow.
+See :numref:`extraction_steps` for a general eDNA extraction workflow.
 
-Insert Figure 14.
+.. _extraction_steps:
+.. figure:: ../figures/Missing.png
+   :alt: General steps in DNA extraction noting myriad protocols and variations therein.
 
-**Figure 14.** General steps in DNA extraction noting myriad protocols and variations therein.
+   General steps in DNA extraction noting myriad protocols and variations therein.
 
-*DNA amplification*
+DNA amplification
+-----------------
 
 The use of technical replicates and multiple controls IS necessary to obtain robust data
 – indeed, if one wishes to publish or if this is to be used to guide policy such practices are
@@ -314,13 +323,15 @@ product in an agarose gel (Figure 15).
 *List of all controls:* NCfield, NCfiltration, NCextraction, NCPCR1, NCPCR2 (for 2 step PCR only),
 Positive control and technical replicates (Table 3, Table 5).
 
-Insert Figure 15
+.. figure:: ../figures/Figure_15.png
+   :alt: Photo of a 1% agarose gel.
 
-**Figure 15.** Photo of a 1% agarose gel. L = DNA Ladder (100 to 1,500 bp), 1 = No-template
-control, 2 = Positive control (tissue DNA), 3 to 7 and 12 = failed eDNA samples (no band), 8 to
-11 and 13: successful eDNA samples (bright band at the expected amplicon size).
+   Photo of a 1% agarose gel. L = DNA Ladder (100 to 1,500 bp), 1 = No-template
+   control, 2 = Positive control (tissue DNA), 3 to 7 and 12 = failed eDNA samples (no band), 8 to
+   11 and 13: successful eDNA samples (bright band at the expected amplicon size).
 
-*DNA sequencing (metabarcoding)*
+DNA sequencing (metabarcoding)
+------------------------------
 
 DNA can be sequenced as single-end (i.e. in only one direction) or as paired-end
 (sequencing the amplicon forward and backward). Paired-end sequencing usually generates
@@ -333,13 +344,15 @@ Technology (MinION) and PacBio exist as well.
 Outputs
 =======
 
-*qPCR*
+qPCR
+----
 
 Here we present the outputs of the Biorad CFX96 Real-Time PCR detection system using
 Biorad CFX Maestro® software. Note that outputs and options may vary from one software
 package to another, so please refer to relevant user manuals.
 
-*Amplification chart*
+Amplification chart
+-------------------
 
 The amplification chart displays the fluorescence intensity (relative fluorescence unit or
 RFU) plotted against the number of cycles. There is one curve per fluorophore per well.
@@ -355,43 +368,47 @@ traces and then uses this model to compute an optimal Cq value” and the single
 mode “… uses a single threshold value to calculate the Cq value based on the threshold crossing
 point of individual fluorescence traces”.*
 
-Insert Figure 16
+.. figure:: ../figures/Missing.png
+   :alt: Example amplification curve chart.
 
-**Figure 16.** Example amplification curve chart. The Y-axis is in relative fluorescence units
-(RFUs), while the X-axis is in cycles. The horizontal line at approximately 25 RFU is the
-threshold. The intersection of the amplification curve and threshold line is the Cq value for
-that sample. Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
+   Example amplification curve chart. The Y-axis is in relative fluorescence units
+   (RFUs), while the X-axis is in cycles. The horizontal line at approximately 25 RFU is the
+   threshold. The intersection of the amplification curve and threshold line is the Cq value for
+   that sample. Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
 
-*Standard curve*
+Standard curve
+--------------
 
 The vertical axis shows the Cq value and the horizontal axis shows the log of the starting
 concentration (log starting quantity). The legend shows the type of DNA template (standard
 or target sample), the colour of the fluorophore (e.g. FAM or HEX), efficiency (%; how much is
-being produced with each cycle), R² (goodness-of-fit), slope of the standard curve, and yintercept
+being produced with each cycle), :math:`R^2` (goodness-of-fit), slope of the standard curve, and yintercept
 values (where the curve intercepts the y-axis).
 
 **Note:** It is possible to obtain an E value higher than 100%. This can be explained by an excess
 of starting quantity templates or the presence of inhibitors that prevent Cq values from
 shifting into earlier cycles as product concentration increases. It can also be explained by the
 non-specificity of the primers when using intercalating dyes like SYBR green. This can be
-checked by looking at the melting curve (Figure 18): if only one curve is observed then primers
+checked by looking at the melting curve (:numref:`melting_curve`): if only one curve is observed then primers
 are specific; however, if multi-peaks are observed primers may have amplified different
 fragments. This blog post provides detailed information on reasons and solutions for efficiency
 values that are too low or high: https://biosistemika.com/blog/qpcr-efficiency-over-100/.
 
-Insert Figure 17
+.. figure:: ../figures/Missing.png
+   :alt: Example amplification curve for standards and standard curve.
 
-**Figure 17.** Example amplification curve for standards (left) and standard curve (right). The
-standard curve on the right has Cq value plotted against known starting quantity (log10
-transformed). Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
+   Example amplification curve for standards (left) and standard curve (right). The
+   standard curve on the right has Cq value plotted against known starting quantity (log10
+   transformed). Taken from Bio-Rad CFX Manager 3.1 software (Bio-Rad Laboratories, Inc).
 
-*Melting curve*
+Melting curve
+-------------
 
 Melting curves are a low cost, within assay method for determining if your
 intercalating dye (SYBR Green) based qPCR has produced a single product. Intercalating dyes
 fluoresce when they bind to double stranded DNA, but are not sequence specific. Double
-stranded DNA dissociates into single strands as temperature increases, typically between 70oC
-to 90oC, releasing the intercalating dye and reducing the fluorescent single. This temperature
+stranded DNA dissociates into single strands as temperature increases, typically between 70°C
+to 90°C, releasing the intercalating dye and reducing the fluorescent single. This temperature
 of dissociation, or melting temperature, varies between sequences (with higher G/C content
 regions having greater binding energy and therefore melting temperature). Therefore,
 through increasing the temperature in small intervals and measuring fluorescence at each
@@ -403,12 +420,14 @@ platforms. These peaks can help you assess if there is non-specific amplificatio
 presence of primer/dimers in your reaction. For more details on melt curve analysis, read:
 https://www.idtdna.com/pages/education/decoded/article/interpreting-melt-curves-anindicator-not-a-diagnosis.
 
-Insert Figure 18
+.. _melting_curve:
+.. figure:: ../figures/Missing.png
+   :alt: Example melt curve and first derivative of melt curve.
 
-**Figure 18.** Example melt curve and first derivative of melt curve (right). The sample with a
-peak at approximately 82oC is the desired amplification product. The sample with a smaller
-peak at approximately 76oC is a primer/dimer. Taken from Bio-Rad CFX Manager 3.1 software
-(Bio-Rad Laboratories, Inc).
+   Example melt curve and first derivative of melt curve (right). The sample with a
+   peak at approximately 82°C is the desired amplification product. The sample with a smaller
+   peak at approximately 76°C is a primer/dimer. Taken from Bio-Rad CFX Manager 3.1 software
+   (Bio-Rad Laboratories, Inc).
 
 **Data table**
 
@@ -420,33 +439,39 @@ per group of replicates, Starting quantity (SQ; select the unit in Settings), Lo
 
 The first ddPCR output to check is the number of droplets generated for each sample.
 The number of droplets must be equal or superior to 10,000 and uniform among samples to
-allow comparison (Figure 19). The second main output is the number of positive and negative
-droplets (Figure 20). The threshold is automatically calculated by the software but can be
+allow comparison (:numref:`droplet_count`). The second main output is the number of positive and negative
+droplets (:numref:`droplet_amp`). The threshold is automatically calculated by the software but can be
 adjusted manually. Separation of positive and negative droplets can be improved through
-incubating the PCR product before droplet reading in fridge conditions (4oC) for 3 hours to
+incubating the PCR product before droplet reading in fridge conditions (4°C) for 3 hours to
 overnight (Personal communications, Bio-Rad). The third output (calculated based on the
-other ones) is the concentration of the target species (number of DNA copies/μL) (Figure 21).
+other ones) is the concentration of the target species (number of DNA copies/μL) (:numref:`conc_graph`).
 The lower and upper limits of concentration are 0.25 copies/μL and 5,000 copies/μL,
 respectively. The observed concentration can be converted into the number of copies present
 in the starting material.
 
-Insert Figure 19
+.. _droplet_count:
+.. figure:: ../figures/Missing.png
+   :alt: Example droplet count graph.
 
-**Figure 19.** Example droplet count graph. The number of droplets in each well is on the Y-axis.
-Well labels are on the X-axis. Taken from Bio-Rad QX Manager 2 software (Bio-Rad
-Laboratories, Inc).
+   **Figure 19.** Example droplet count graph. The number of droplets in each well is on the Y-axis.
+   Well labels are on the X-axis. Taken from Bio-Rad QX Manager 2 software (Bio-Rad
+   Laboratories, Inc).
 
-Insert Figure 20
+.. _droplet_amp:
+.. figure:: ../figures/Missing.png
+   :alt: Example droplet amplitude graph.
 
-**Figure 20.** Example droplet amplitude graph. The RFU of each droplet is on the Y-axis. Well
-labels are on the X-axis. The red line indicates the threshold (dividing line between positive
-and negative droplets. Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
+   **Figure 20.** Example droplet amplitude graph. The RFU of each droplet is on the Y-axis. Well
+   labels are on the X-axis. The red line indicates the threshold (dividing line between positive
+   and negative droplets. Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
 
-Insert Figure 21
+.. _conc_graph:
+.. figure:: ../figures/Missing.png
+   :alt: Concentration graph.
 
-**Figure 21.** Concentration graph. The concentration in copies/μL is on the Y-axis. Well labels
-are on the X-axis. Concentrations were calculated by the software with Poisson statistics.
-Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
+   **Figure 21.** Concentration graph. The concentration in copies/μL is on the Y-axis. Well labels
+   are on the X-axis. Concentrations were calculated by the software with Poisson statistics.
+   Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
 
 The following example is provided by Bio-Rad in the Droplet Digital PCR Application
 guide to understand how to convert copies/μL into copies in the starting material (from:
@@ -467,7 +492,8 @@ https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf ):
     contained 10 μl of the original sample, so there were 200 copies of target DNA in the full
     10 μl of starting sample, and 200/10 = 20 copies/μl of target in the starting sample"*
 
-*Metabarcoding (pair-end sequencing)*
+Metabarcoding (pair-end sequencing)
+-----------------------------------
 
 Most sequencing platforms provide data that are already demultiplexed: the library has
 been split up into different files for each sample (i.e. each read has been assigned to a sample).
@@ -502,6 +528,5 @@ image quality filter. Expected PF is usually >70-80%.
 Global percentage of bases whose Q score > 30 (global index of sequencing quality). A Q score
 of 30 indicates the probability of one incorrect base every 1,000 bases.
 
-Insert Box 1 here
-
-
+.. image:: ../figures/Box_1.png
+   :alt: Box 1

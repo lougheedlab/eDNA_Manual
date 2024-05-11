@@ -35,7 +35,7 @@ We must merge Read 1 and Read 2 to recover the sequence across the full amplicon
 do so we usually use the overlap between Read1 and Read2. The overlap can comprise the
 full amplicon or be partial. For example, if the amplicon is 400bp and was sequenced using
 MiSeq paired-end sequencing 2x250bp, then there is an overlap of 100bp between Read 1 and
-Read2 (Figure 22). Merging improves Q scores of the overlap region but if read quality is poor,
+Read2 (:numref:`conc_r1_r2`). Merging improves Q scores of the overlap region but if read quality is poor,
 erroneous bases could cause chimeras (merging reads that are not the same fragment). Three
 parameters must be considered to merge reads: minimum (≥10 bp) and maximum (read
 length-minimum overlap length) lengths of acceptable overlap and the maximum rate of
@@ -52,11 +52,14 @@ obitools, Pear.
 **Examples of software:** Flash (Magoč and Salzberg 2011), Vsearch (Rognes et al. 2016),
 obitools, Pear.
 
-Insert Figure 22
+.. _conc_r1_r2:
+.. figure:: ../figures/Figure_22.png
+   :alt: Calculation of R1 and R2 overlap length.
 
-**Figure 22.** Calculation of R1 and R2 overlap length.
+   Calculation of R1 and R2 overlap length.
 
-*Quality and length filtering and primers trimming*
+Quality and length filtering and primers trimming
+=================================================
 
 Erroneous sequences from PCR sequencing and merging reads must be filtered out.
 Quality-based filtering can be done using different strategies: i) Using a global quality
@@ -77,7 +80,8 @@ The final step is removing primer sequences from the reads.
 **Examples of softwares:** Trimmomatic (Bolger, Lohse, and Usadel 2014), usearch (Edgar 2010),
 Cutadapt, obitools, Vsearch.
 
-*Dereplication and error removal*
+Dereplication and error removal
+===============================
 
 As a single DNA fragment can be sequenced several times, merged reads that passed
 the filters must be dereplicated into unique sequences (i.e. identical sequences are grouped).
@@ -110,7 +114,8 @@ base pair difference.
 **BOX 2.** Obiclean (obitools; Boyer et al. 2016) denoising function. A sequence can be tagged
 as head, internal or singleton.
 
-Insert Box 2
+.. image:: ../figures/Box_2.png
+   :alt: Box 2
 
 Some species may be split across several ESVs due to intra-species variation. An
 alternative approach to ESV is clustering very similar sequences into a single unit called
@@ -120,8 +125,11 @@ represented by the consensus sequence of the cluster whereas the ESV is represen
 exact sequence. There are multiple clustering algorithms in the literature, but in this manual
 we present the most common (1) and the recommended (2) methods (Mathon et al. 2021).
 
-#. Using a global threshold (usually 97 or 98%). The higher the threshold, the lower is the risk of losing diversity by clustering multiple similar species. In addition, the input order changes the OTU construction (Figure 23A).
-#. Using a single-linkage clustering approach based on a local clustering threshold (d=1,Mathon et al. 2021) and free of input-order dependency (swarm; Mahé et al. 2015) (Figure 23B).
+#. Using a global threshold (usually 97 or 98%). The higher the threshold, the lower is the risk of losing diversity by
+   clustering multiple similar species. In addition, the input order changes the OTU construction
+   (:numref:`clustering` A).
+#. Using a single-linkage clustering approach based on a local clustering threshold (d=1,Mathon et al. 2021) and free of
+   input-order dependency (swarm; Mahé et al. 2015) (:numref:`clustering` B).
 
 There is no clear consensus for using the ESV or the OTU approach (Antich et al. 2021);
 however, it seems that using ESV is increasingly favoured thanks to improvements in the
@@ -130,11 +138,14 @@ known composition) to explore this
 
 **Examples of software:** OBITools, VSEARCH, DADA2, SWARM
 
-Insert Figure 23
+.. _clustering:
+.. figure:: ../figures/Figure_23.png
+   :alt: Clustering methods.
 
-**Figure 23.** Clustering methods using A) a global threshold (left), B) a local threshold (right).
+   Clustering methods using A) a global threshold (left), B) a local threshold (right).
 
-*Taxonomic assignment*
+Taxonomic assignment
+====================
 
 The next step in this metabarcoding process is assigning ESV (exact sequence) or OTU
 (consensus sequence) to a species name. To do so, ESV/OTU query sequences are compared
@@ -142,7 +153,8 @@ to sequences available in reference databases. Reference databases can be public
 global or local (e.g. regional) and must be both accurate (species level) and comprehensive
 (cover all species).
 
-*Examples of public reference databases*
+Examples of public reference databases
+--------------------------------------
 
 - GenBank NCBI (tree of life; all genes) https://www.ncbi.nlm.nih.gov/nuccore/?term=
 - BOLD (animal, fungi and plants; COI, ITS, rbcl) http://www.boldsystems.org/index.php/databases
@@ -173,7 +185,8 @@ especially unexpected results. Are they false positives (e.g. species not occurr
 continent), misidentification (e.g. species closely related to one expected in your region or
 sample) or true occurrences?
 
-*Basic Local Alignment Search Tool*
+Basic Local Alignment Search Tool
+---------------------------------
 
 Taxonomic identification can be done manually using the online tool Basic Local Alignment
 Search Tool (`BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_L
@@ -185,15 +198,17 @@ FASTA format: the first line starts with a “>” and is a comment line contain
 the sequence (e.g. name, accession number). The second line contains the sequence. Be sure
 to use a good text editor so that ‘hidden characters’ do not become embedded in your file.
 
->Name_for_sequence1
-CACCTTATATCTAATCTTCGGTGCTTGAGCTGGCATAGTCGGCACCGCCCTCAGCTTACTCATCCGCGCAGAACT
-CGGCCAACCAGGCACACTCCTAGGCGACGACCAAATCTACAACGTAGTCGTCACCGCA
->Name_for_sequence2
-CACTCTTTATCTTATTTTTGGTACATGAGCAGGCATAGCCGGTACAGCACTTAGCTTGTTAATCCGCGCAGAACT
-AGGACAACCAGGCACCCTCCTAGGAGATGACCAAATTTACAATGTAATTGTCACAGCA
->Name_for_sequence3
-CACTCTTTATCTTATTTTTGGTACATGAGCTGGCATAGCCGGTACAGCACTTAGCTTGTTAATCCGCGCAGAACT
-AGGATTACCAGGCACCCTCCTACCAGATGACCAAATTTACAATGTAATTGTCACAGCA
+.. code::
+
+   >Name_for_sequence1
+   CACCTTATATCTAATCTTCGGTGCTTGAGCTGGCATAGTCGGCACCGCCCTCAGCTTACTCATCCGCGCAGAACT
+   CGGCCAACCAGGCACACTCCTAGGCGACGACCAAATCTACAACGTAGTCGTCACCGCA
+   >Name_for_sequence2
+   CACTCTTTATCTTATTTTTGGTACATGAGCAGGCATAGCCGGTACAGCACTTAGCTTGTTAATCCGCGCAGAACT
+   AGGACAACCAGGCACCCTCCTAGGAGATGACCAAATTTACAATGTAATTGTCACAGCA
+   >Name_for_sequence3
+   CACTCTTTATCTTATTTTTGGTACATGAGCTGGCATAGCCGGTACAGCACTTAGCTTGTTAATCCGCGCAGAACT
+   AGGATTACCAGGCACCCTCCTACCAGATGACCAAATTTACAATGTAATTGTCACAGCA
 
 - Choose “Nucleotide collection (nr/nt)”
 - Click on the “BLAST” button
@@ -202,13 +217,17 @@ The BLAST Search Tool provides 100 sequences from the reference database that be
 matched the query sequences. The following metrics are provided for each of the matching
 sequences: “Description”, “Scientific name”, “Max score”, “Total score”, “Query cover”, “E
 value”, “Perc. Ident”, “Acc. Len”, “Accession”. The matching sequences are often called hit
-sequences or hits (Figure 24).
+sequences or hits (:numref:`fig_blast`).
 
-Insert Figure 24
+.. _fig_blast:
+.. figure:: ../figures/Figure_24.png
+   :alt: Example of BLAST output. Sequence is identified as Coturnix sp. (resolution at the
+    genus level) as both Coturnix japonica and Coturnix coturnix show high query cover (100% and
+    97%, respectively) and 100% percentage identity.
 
-**Figure 24.** Example of BLAST output. Sequence is identified as Coturnix sp. (resolution at the
-genus level) as both Coturnix japonica and Coturnix coturnix show high query cover (100% and
-97%, respectively) and 100% percentage identity.
+   Example of BLAST output. Sequence is identified as *Coturnix* sp. (resolution at the
+   genus level) as both *Coturnix japonica* and *Coturnix coturnix* show high query cover (100% and
+   97%, respectively) and 100% percentage identity.
 
 First check the “Query cover” (QC) value – how much of the query sequence is covered
 (i.e. identical) by the hit sequence. For example, a query cover of 90% means that the hit
@@ -233,13 +252,15 @@ found by chance.
 opens a new window with all information on that sequence (e.g. source, reference, authors,
 genes).
 
-*Graphic summary tab*
+Graphic summary tab
+~~~~~~~~~~~~~~~~~~~
 
 The query sequence is represented in blue. The length (see Query cover section) and
 location of the hit sequences are represented below, each colour indicating the quality of the
 alignment (Alignment score; the higher, the better).
 
-*Alignments tab*
+Alignments tab
+~~~~~~~~~~~~~~
 
 This output allows the reader to visualise the alignment between the query sequence
 “Query” and the hit sequence “Sbjct”. Select “Pairwise with dots for identities” in the
@@ -264,7 +285,8 @@ On the left sidebar, click:
 - NCBI BLAST +
 - NCBI BLAST+ blastn (nucleotide database)
 
-*Final filtering*
+Final filtering
+===============
 
 Once sequences have been identified, they must be filtered using the no-template
 controls, the positive control and the technical replicates. See the “eDNA processing – lab
@@ -306,7 +328,7 @@ PCR (NTC_PCR).
 .. Not a beautiful table
 
 =========  ========  ========  ========  ========  ========  ========  ========
-     -       S1_1      S1_2      S1_3       PC1       PC2     NTC_ext   NTC_PCR
+=========    S1_1      S1_2      S1_3       PC1       PC2     NTC_ext   NTC_PCR
 =========  ========  ========  ========  ========  ========  ========  ========
   ESV_1      112       7730     48425        0          0        10       100
   ESV_PC      0         1        10         104       73589      0         0
@@ -321,7 +343,7 @@ PCR (NTC_PCR).
 *Table B.* ESV abundance table filtered by NTCs.
 
 =========  ========  ========  ========  ========  ========
-     -       S1_1      S1_2      S1_3       PC1       PC2
+=========    S1_1      S1_2      S1_3       PC1       PC2
 =========  ========  ========  ========  ========  ========
   ESV_1       2         7630    48145        0          0
   ESV_PC      0         1        10         504      73589
@@ -337,7 +359,7 @@ Tfa (ESV_1) = (False assignment rate) * (total #reads of ESV_1) = 0.000135 * (2+
 **Table C.** ESV abundance table filtered by NTCs and PC.
 
 =========  ========  ========  ========
-     -       S1_1      S1_2      S1_3
+=========    S1_1      S1_2      S1_3
 =========  ========  ========  ========
   ESV_1       0         7630    48145
 =========  ========  ========  ========
@@ -349,7 +371,7 @@ We can now merge the technical replicates (sum the reads).
 **Table D.** Final ESV abundance table (filtered by NTCs, PC and technical replicates).
 
 =========  ========
-     -       S1_1
+=========    S1_1
 =========  ========
   ESV_1     55775
 =========  ========

@@ -23,7 +23,7 @@ plants, inter-transcribed spacer (ITS) for fungi, 12S ribosomal gene for fish (H
 al., 2009; Miya et al., 2015). After Taberlet’s publication in 2012, the application of conserved
 primers in environmental samples became an increasingly sought-after technique, with over
 1000 articles published using the term “eDNA metabarcoding” in 2023 alone (Taberlet et al.,
-2012; Figure 10). Advances in sequencing technologies facilitated the emergence of the
+2012; :numref:`scholar`). Advances in sequencing technologies facilitated the emergence of the
 simultaneous detection of multiple species within a single assay and the ability to screen
 hundreds of samples simultaneously using High Throughput Sequencing (HTS) (Slatko et al.,
 2018; Garlapati et al., 2019) - note that Next Generation Sequencing (NGS) is a phrase that is
@@ -62,11 +62,15 @@ sample. Though shotgun sequencing removes PCR biases common to DNA metabarcoding
 taxonomic identification and resolution remains challenged by incomplete reference
 databases and intraspecies variation in genomic and organellar DNA (Singer et al., 2020).
 
-Insert Figure 10
+.. _scholar:
+.. figure:: ../figures/Missing.png
+   :alt: Bar chart depicting the number of publications using the terms “eDNA
+         Metabarcoding” found in Google scholar each year since the term was introduced in 2012.
+         Data accessed on April 18, 2024.
 
-**Figure 10.** Bar chart depicting the number of publications using the terms “eDNA
-Metabarcoding” found in Google scholar each year since the term was introduced in 2012.
-Data accessed on April 18, 2024.
+   Bar chart depicting the number of publications using the terms “eDNA
+   Metabarcoding” found in Google scholar each year since the term was introduced in 2012.
+   Data accessed on April 18, 2024.
 
 DNA Metabarcoding
 =================
@@ -129,7 +133,7 @@ al. 2018). In some cases correlation between biomass and relative read abundance
 shown (Schenk et al. 2019), but it is currently not possible to link the number of reads to the
 number of individuals in all scenarios.
 
-Insert Figure 11.
+.. figure:: ../figures/Figure_11.png
+   :alt: Two-step PCR workflow.
 
-**Figure 11.** Two-step PCR workflow.
-
+   Two-step PCR workflow.
