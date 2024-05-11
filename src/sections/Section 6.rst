@@ -11,7 +11,7 @@ Conventional Polymerase Chain Reaction (PCR)
 ============================================
 
 The presence/absence of a species in an environmental sample can be determined
-using conventional PCR and agarose gel electrophoresis (Figure 5) (Ficetola et al. 2008; Jerde
+using conventional PCR and agarose gel electrophoresis (:numref:`pcr_phases`) (Ficetola et al. 2008; Jerde
 et al. 2011; Olson et al. 2012; Mahon et al. 2013; Dejean et al. 2011). Positive samples are
 indicated by a distinct band at the expected amplicon size (length of the target DNA fragment
 plus the flanking primers). While this approach is the cheapest for single species detection, it
@@ -34,14 +34,16 @@ assesses final concentrations of the focal amplicon (i.e. after PCR amplificatio
 values are not necessarily proportional to original concentration in the environmental sample
 (stochasticity and amplification bias; Kelly, Shelton, and Gallego 2019).
 
-Insert Figure 5 here
+.. _pcr_phases:
+.. figure:: ../figures/Figure_5.png
+   :alt: PCR phases.
 
-**Figure 5.** PCR phases. i) Denaturation (92°-95°C): heat denatures DNA strands into singlestranded
-template DNA. ii) Annealing (55-65°C): primers bind to their complementary
-sequence on the single-stranded template DNA. iii) Extension (72°C): Taq polymerase (blue
-circle) extends the primers: new strands of DNA are now synthetized. At the end of each cycle
-of the three phases, the number of DNA molecules is doubled. The cycles are repeated
-between 30 and 40 times to obtain millions of DNA molecules.
+   PCR phases. i) Denaturation (92°-95°C): heat denatures DNA strands into single-stranded
+   template DNA. ii) Annealing (55-65°C): primers bind to their complementary
+   sequence on the single-stranded template DNA. iii) Extension (72°C): Taq polymerase (blue
+   circle) extends the primers: new strands of DNA are now synthetized. At the end of each cycle
+   of the three phases, the number of DNA molecules is doubled. The cycles are repeated
+   between 30 and 40 times to obtain millions of DNA molecules.
 
 Quantitative PCR (qPCR)
 =======================
@@ -68,52 +70,55 @@ quantification of DNA using those chemistries is made possible by the continuous
 proportionality between the level of fluorescence and the amount of amplified DNA. As the
 fluorescence is directly proportional to the number of amplicons produced during
 amplification, the fluorescence follows a typical amplification curve over the amplification
-cycles (Figure 6A). During the first cycles the fluorescence emission cannot be distinguished
+cycles (:numref:`fig6` A). During the first cycles the fluorescence emission cannot be distinguished
 from the background noise (too few amplicons; PHASE 1), after which fluorescence level
 exceeds the background noise (detection threshold) and linearly increases (PHASE 2) to reach
 a plateau during which very few new amplicons are produced (PHASE 3). The number of cycles
 to pass the detection threshold (Ct or Cq value - synonyms) is inversely proportional to the
 number of copies of template DNA originally present in the sample. The unknown
 concentration of the extracted DNA sample is calculated using a linear regression of known
-concentration standards (“standard curve” or “calibration curve”, Figure 6B). The standard
+concentration standards (“standard curve” or “calibration curve”, :numref:`fig6` B). The standard
 curve is made from serial dilutions (2 to 10-fold) of a positive control (known concentrations
 of DNA of the species of interest). Synthetic DNA is preferred to DNA extracted from tissue or
 blood, as it has a fixed number of base pairs and can be quantified in terms of copies per
 volume (Langlois et al. 2021). When using extracted DNA, it is typically best to verify the
 identity of the sample through PCR and Sanger sequencing if possible.
 
-Insert Figure 6 here
+.. _fig6:
+.. figure:: ../figures/Figure_6.png
+   :alt: Fluorescence emission across cycles and standard curve results.
 
-**Figure 6. A)** Fluorescence emission across cycles. Phase 1 is defined by fluorescence emission
-below the background noise (threshold of fluorescence). Phase 2 is defined by a linear increase
-of the fluorescence emission and phase 3 by a plateau of fluorescence. Cq is the number of
-cycle to reach the threshold of fluorescence (i.e. fluorescence above background noise). **B)**
-Standard curve results. Each dot represents a concentration standard of the dilution series.
+   **A)** Fluorescence emission across cycles. Phase 1 is defined by fluorescence emission
+   below the background noise (threshold of fluorescence). Phase 2 is defined by a linear increase
+   of the fluorescence emission and phase 3 by a plateau of fluorescence. Cq is the number of
+   cycle to reach the threshold of fluorescence (i.e. fluorescence above background noise). **B)**
+   Standard curve results. Each dot represents a concentration standard of the dilution series.
 
-Quantitative PCR assay performance is evaluated using four metrics R², PCR efficiency
-(E), Limit of Detection (LOD) and Limit of Quantification (LOQ).
+Quantitative PCR assay performance is evaluated using four metrics :math:`R^2`, PCR efficiency
+(:math:`E`), Limit of Detection (LOD) and Limit of Quantification (LOQ).
 
 .. italicize R squared?
 
-R\ :sup:`2` indicates how well the replicates fit on the standard curve (linearity). Usually we aim for R²
-> 98%.
+:math:`R^2` indicates how well the replicates fit on the standard curve (linearity). Usually we aim for
+:math:`R^2 > 98\%`.
 
-*PCR efficiency (E)* is calculated using the formula:
+*PCR efficiency* (:math:`E`) is calculated using the formula:
 
 .. The equation should be centred
 
-E = 10\ :sup:`-1/slope of the standard curve` - 1
+.. math::
+   E = 10^{-1 / \text{slope of the standard curve}} - 1
 
-When E=100%, this indicates that the amount of DNA product doubles with each cycle
+When :math:`E=100\%`, this indicates that the amount of DNA product doubles with each cycle
 (MIQE guideline, Bustin et al. 2009). Lower values of E result from poor amplification, for
 example due to non-optimal qPCR mix or cycling conditions, secondary structure or primer
-dimers that affect primer-template annealing (poor amplification). E >100% generally reveals
+dimers that affect primer-template annealing (poor amplification). :math:`E >100\%` generally reveals
 polymerase inhibition, either by excessive initial DNA concentration or the presence of
 inhibitors in the sample (i.e. substances that negatively impact amplification because they
 interact with DNA or the polymerase). A value that exceeds 100% means that even if more
 DNA template is present in the reagent mixture, the Cq values might not shift accordingly
-which flattens out the efficiency plot, (lower slope and E> 100%). We typically aim for 90% <
-E < 110%.
+which flattens out the efficiency plot, (lower slope and :math:`E > 100\%`). We typically aim for
+:math:`90\% < E < 110\%`.
 
 *Limit of Detection (LOD)* and *Limit of Quantification (LOQ)*. The definition of the LOD and LOQ
 vary among authors (Forootan et al. 2017; Klymus et al. 2020a; Hunter et al. 2017; Brys et al.
@@ -188,8 +193,8 @@ et al., 2015).
 Droplet digital PCR (ddPCR) is based on water-oil emulsion droplet technology: a DNA
 sample is randomly partitioned into up to 20,000 individual droplets which are then
 independently amplified by conventional PCR enabling detection and quantification of very
-low amounts of DNA (Nathan et al. 2014) (Figure 7). Concentration of target DNA is then
-determined by the fraction of positive droplets at the end of the PCR reaction (Figure 7),
+low amounts of DNA (Nathan et al. 2014) (:numref:`ddPCR`). Concentration of target DNA is then
+determined by the fraction of positive droplets at the end of the PCR reaction (:numref:`ddPCR`),
 whereas qPCR fluorescence is measured in real-time. ddPCR has several advantages compared
 to qPCR (Mauvisseau et al. 2019; Kamel et al. 2021; Doiet al. 2015a; Doiet al. 2015b): 1) ddPCR
 provides absolute quantification without the use of a standard curve; 2) ddPCR has a lower
@@ -197,9 +202,11 @@ sensitivity to inhibitors (e.g. humic substances) present in environmental sampl
 quantified concentration can be more accurate than qPCR especially at low concentration. As
 of April, 2024, Bio-Rad is the only supplier of ddPCR systems (see references).
 
-Insert Figure 7 here
+.. _ddPCR:
+.. figure:: ../figures/Figure_7.png
+   :alt: ddPCR workflow and graphic output.
 
-**Figure 7**  ddPCR workflow and graphic output.
+   ddPCR workflow and graphic output.
 
 Loop-mediated isothermal amplification (LAMP)
 =============================================
@@ -214,8 +221,8 @@ target sequence of DNA. These consist of a pair of external primers (which are s
 conventional PCR primers), a pair of internal primers, one complementary to the sense strand
 slightly downstream of the external primers, and the other complementary to an inner region
 of the target DNA sequence, and finally an optional pair of loop primers, which target regions
-between the two internal primer targets (Figure 8). For more information on the mechanisms
-of LAMP, refer to: https://youtu.be/L5zi2P4lggw and Figure 9.
+between the two internal primer targets (:numref:`lamp1`). For more information on the mechanisms
+of LAMP, refer to: https://youtu.be/L5zi2P4lggw and :numref:`lamp2`.
 
 LAMP has advantages and disadvantages over PCR, qPCR, or ddPCR. Unlike PCR-based
 detection methods, LAMP is isothermal and does not require temperature cycling. This can
@@ -233,16 +240,20 @@ are difficult to design manually, and LAMP reagents are more costly due to lower
 scale. Nevertheless, the use of LAMP in biomedical and environmental detection has received
 significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
 
-Insert Figure 8.
+.. _lamp1:
+.. figure:: ../figures/Missing.png
+   :alt: Primers used in LAMP.
 
-**Figure 8.** Primers used in LAMP. The boxes on the lines represent different parts of the target
-sequence. Striped boxes are complementary to solid boxes of the same colour. Free floating
-boxes are primers, and their colour and solid/striped fill-in indicates which part of the target
-sequence they are from. Primers are approximately 20 bp long.
+   Primers used in LAMP. The boxes on the lines represent different parts of the target
+   sequence. Striped boxes are complementary to solid boxes of the same colour. Free floating
+   boxes are primers, and their colour and solid/striped fill-in indicates which part of the target
+   sequence they are from. Primers are approximately 20 bp long.
 
-Insert Figure 9.
+.. _lamp2:
+.. figure:: ../figures/Missing.png
+   :alt: LAMP process.
 
-**Figure 9.** LAMP process.
+   LAMP process.
 
 Inhibition and Internal Positive Controls (IPC)
 ===============================================
