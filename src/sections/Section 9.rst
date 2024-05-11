@@ -15,7 +15,7 @@ MJOLNIR), Anapaca (Curd et al. 2019), DADA2 (Callahan et al. 2016) or QIIME2
 For using different software from read processing to identification of OTUs:
 https://learnmetabarcoding.github.io/LearnMetabarcoding/data.html
 
-For using obitools (Boyer et al. 2016)
+For using obitools (Boyer et al. 2016):
 https://pythonhosted.org/OBITools/wolves.html
 
 For using dada2 (Callahan et al. 2016):
@@ -29,7 +29,8 @@ http://frogs.toulouse.inra.fr/
 consensus on which software nor which settings to use. One should explore which tools and
 settings best fit the needs and data for each individual project.
 
-**Merge R1 and R2**
+Merge R1 and R2
+===============
 
 We must merge Read 1 and Read 2 to recover the sequence across the full amplicon. To
 do so we usually use the overlap between Read1 and Read2. The overlap can comprise the
@@ -192,7 +193,8 @@ Taxonomic identification can be done manually using the online tool Basic Local 
 Search Tool (`BLAST <https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_L
 OC=blasthome>`_).
 
-- Paste query sequence(s) in the box “Enter accession number(s), gi(s), or FASTA sequence(s)” or upload the FASTA file (multiple sequences)
+➢ Paste query sequence(s) in the box “Enter accession number(s), gi(s), or FASTA sequence(s)” or upload the FASTA
+file (multiple sequences)
 
 FASTA format: the first line starts with a “>” and is a comment line containing information on
 the sequence (e.g. name, accession number). The second line contains the sequence. Be sure
@@ -210,8 +212,8 @@ to use a good text editor so that ‘hidden characters’ do not become embedded
    CACTCTTTATCTTATTTTTGGTACATGAGCTGGCATAGCCGGTACAGCACTTAGCTTGTTAATCCGCGCAGAACT
    AGGATTACCAGGCACCCTCCTACCAGATGACCAAATTTACAATGTAATTGTCACAGCA
 
-- Choose “Nucleotide collection (nr/nt)”
-- Click on the “BLAST” button
+| ➢ Choose “Nucleotide collection (nr/nt)”
+| ➢ Click on the “BLAST” button
 
 The BLAST Search Tool provides 100 sequences from the reference database that best
 matched the query sequences. The following metrics are provided for each of the matching
@@ -243,10 +245,10 @@ at least 97-98% is used to identify query sequences at the species level. If sev
 high Perc. Ident., then the hit sequence is identified at the nearest shared taxonomic level
 (e.g. genus) (Figure 24).
 
-The E value (expected value) indicates the number of expected hits found by chance. The
-smaller the E value, the better the hit. E values should not be ≥ 0.01 and an E value < 1e-50
-shows very high quality. An E-value of 0.01 means that up to 1% of hits can be expected to be
-found by chance.
+The :math:`E` value (expected value) indicates the number of expected hits found by chance. The
+smaller the :math:`E` value, the better the hit. :math:`E` values should not be ≥ 0.01 and an
+:math:`E` value < 1e-50 shows very high quality. An E-value of 0.01 means that up to 1% of hits
+can be expected to be found by chance.
 
 *Accession* is the unique identifier of the matching sequence. Clicking on the identifier
 opens a new window with all information on that sequence (e.g. source, reference, authors,
@@ -281,9 +283,9 @@ interface using the NCBI BLAST+ tool implemented on the Galaxy server
 
 On the left sidebar, click:
 
-- Upload Data
-- NCBI BLAST +
-- NCBI BLAST+ blastn (nucleotide database)
+| ➢ Upload Data
+| ➢ NCBI BLAST +
+| ➢ NCBI BLAST+ blastn (nucleotide database)
 
 Final filtering
 ===============

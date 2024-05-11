@@ -59,9 +59,11 @@ companies. See :numref:`flowchart_with_costs` for rough estimates on costs and l
   Bureau Veritas (https://www.bvna.com/sites/g/files/zypfnx386/files/media/document/eDNA%20Testing.pdf; qPCR only),
   UNBC Genetics Lab (https://www2.unbc.ca/genetics/pricing).
 
-**Table 1.** A list of some laboratory apparatus required for an eDNA clean space. Higher budget
-labs may have additional equipment such as a positive airflow room. Prices are list prices in
-CAD in July 2022.
+.. csv-table:: **Table 1.** A list of some laboratory apparatus required for an eDNA clean space. Higher budget
+               labs may have additional equipment such as a positive airflow room. Prices are list prices in
+               CAD in July 2022.
+   :file: ../tables/table_1.csv
+   :header-rows: 1
 
 Insert Table 1 as image
 
@@ -129,19 +131,17 @@ Unlike other tools such as the commonly used ecoPCR (Ficetola et al. 2010; Belle
 into account the number and type of mismatches, their position, and whether they are
 adjacent (Elbrecht and Leese, 2017a). One may include ‘degenerate’ bases to increase the
 diversity of species that may be detected (Tournayre et al. 2020; Elbrecht and Leese 2017b).
-Primers with degenerate bases have an equimolar mix of nucleotides (Table 2). Thus, if a
+Primers with degenerate bases have an equimolar mix of nucleotides (:numref:`iupac`). Thus, if a
 primer sequence is generally conserved across its length, but exhibits variation at one
 particular key nucleotide, we could address this by ordering a mix of primers with slightly
 different versions of the same sequence. For example, if the variable site contained either a
 ‘C’ or a ‘T’ we would code this as ‘Y’ and the resulting primer will comprise an equimolar mix
 of C (50%) and T (50%) allowing binding to both C and T at the same base position.
 
-**Table 2.** Degenerate base codes from the International Union of Pure and Applied Chemistry
-(IUPAC).
-
-Insert Table 2 as image
-
-.. Could embed this as a table using code
+.. _iupac:
+.. csv-table:: Degenerate base codes from the International Union of Pure and Applied Chemistry (IUPAC).
+   :file: ../tables/table_2.csv
+   :header-rows: 1
 
 To our knowledge, only two tools have been developed to facilitate primer selection:
 the in silico-based MultiBarcodeTools (https://multibarcode.k.u-tokyo.ac.jp/; Zhu and
