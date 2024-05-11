@@ -21,7 +21,7 @@ Sanger sequencing – although Next Generation sequencing methods can be used); 
 resulting barcode sequences are compared to a reference database which contains
 information on many species linked to their barcodes (e.g. Barcode Of Life Database – BOLD
 or the US National Institute of Health’s Genbank; Ratnasingham and Hebert 2007; Benson et
-al. 2008) (Figure 1). Different genes can be targeted depending on the organism; for example,
+al. 2008) (:numref:`workflow`). Different genes can be targeted depending on the organism; for example,
 the mitochondrial cytochrome c oxidase subunit I (COI) gene is preferred for most animal
 groups and the chloroplast ribulose-bisphosphate carboxylase (rbcL) and maturase K (matK)
 regions are preferred for plants (Porter and Hajibabaei 2018).
@@ -31,7 +31,8 @@ collections, it has been successfully applied to DNA sampled from the environmen
 overcoming the need of capturing or indeed even seeing individuals to detect the presence of
 species (Thomsen and Willerslev 2015).
 
-Insert figure 1 here
+.. _workflow:
+.. figure:: ../figures/Figure_1.png
+   :alt: Traditional barcoding workflow.
 
-**Figure 1.** Traditional barcoding workflow.
-
+   Traditional barcoding workflow.

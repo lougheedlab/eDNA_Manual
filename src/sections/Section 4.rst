@@ -31,7 +31,7 @@ corresponding copies of mitochondrial/chloroplast DNA per cell, those genes are 
 preferred targets for eDNA assays.
 
 Once DNA is released into the environment, several biotic and abiotic factors can
-influence its persistence and detection probability (Figure 2). eDNA can diffuse and thus be
+influence its persistence and detection probability (:numref:`processes`). eDNA can diffuse and thus be
 transported tens of kilometres by external means such as human activities (e.g. boats) or
 animals (e.g. leeches, predator), or by internal sources such as stream flow (Deiner and
 Altermatt 2014). Three main processes control eDNA movement in stream: transport,
@@ -63,20 +63,25 @@ completely understood (Mauvisseau, Harper, et al. 2022). Current best practice i
 reporting as many parameters as possible, and using analytical controls during water sampling
 and processing.
 
-Insert Figure 2 here
+.. _processes:
+.. figure:: ../figures/Figure_2.png
+   :alt: Illustration of the processes (shedding, degradation, retention, resuspension, transportation)
+         influencing eDNA detection in the environment.
 
-**Figure 2.** Illustration of the processes (shedding, degradation, retention, resuspension,
-transportation) influencing eDNA detection in the environment.
+   Illustration of the processes (shedding, degradation, retention, resuspension, transportation)
+   influencing eDNA detection in the environment.
 
 Standards for eDNA workflows and reporting are in development or have recently
 emerged (See CSA W214:21 and CSA W219:23). Current best practice includes meticulous
 documentation of assay development, sampling schema, multiple controls, filtration
 protocols, contamination precautions, metadata collection, wet-lab processing, dry lab
 processing, detection criteria, and statistical analyses (Goldberg, Turner, et al. 2016). See
-Figure 3 for a workflow chart and recommended reporting at each stage.
+:numref:`flowchart` for a workflow chart and recommended reporting at each stage.
 
-Insert Figure 3 here
+.. _flowchart:
+.. figure:: ../figures/Missing.png
+   :alt: Conceptual flowchart of a potential workflow for developing an eDNA study, with
+         minimum recommended reporting standards for each stage.
 
-**Figure 3.** Conceptual flowchart of a potential workflow for developing an eDNA study, with
-minimum recommended reporting standards for each stage.
-
+   Conceptual flowchart of a potential workflow for developing an eDNA study, with
+   minimum recommended reporting standards for each stage.

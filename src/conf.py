@@ -29,6 +29,7 @@ templates_path = ['_templates']
 
 #    - Assign numbers to figures
 numfig = True
+numfig_secnum_depth = 0
 
 # -- Options for HTML output
 
