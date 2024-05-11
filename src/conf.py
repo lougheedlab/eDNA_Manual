@@ -11,6 +11,9 @@ version = '2.1.0'
 
 # -- General configuration
 
+root_doc = "index"
+html_static_path = ["_static"]
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -40,9 +43,22 @@ epub_show_urls = 'footnote'
 
 # -- Options for PDF output
 latex_engine = 'xelatex'
+latex_documents = [
+    (root_doc, "eDNA_manual.tex", project, author, "manual")
+]
 latex_elements = {
+    # 'extrapackages': r"\usepackage{titling}",
     'maketitle': r"""
-    \author{Orianne Tournayre, Haolun (Allen) Tian, \and Stafford "Rotehrá:kwas" Maracle, \and and Stephen C. Lougheed}
+    \author{Orianne Tournayre$^{1,2}$, Haolun (Allen) Tian$^1$, \and Stafford "Rotehrá:kwas" Maracle$^1$, \and and 
+    Stephen C. Lougheed$^1$}
+    \date{
+    1. Department of Biology, Queen’s University, Kingston, Ontario, Canada \\
+    2. Current address. Department of Biology, York University, Toronto, Ontario, Canada \\~\\~\\
+    \centering
+    \normalfont 
+    \textit{Originally prepared for the Queen’s University Biological Station environmental DNA workshop} \\~\\
+    \includegraphics[width=2in]{QUBS}
+    }
     \sphinxmaketitle
     """,
     # https://tex.stackexchange.com/questions/55404/how-to-remove-chapter-name-with-fncychap-package
@@ -51,3 +67,4 @@ latex_elements = {
     \renewcommand\FmN[1]{}
     """,
 }
+latex_additional_files = ["images/QUBS.png"]
