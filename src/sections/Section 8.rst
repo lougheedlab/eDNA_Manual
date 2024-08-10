@@ -46,7 +46,7 @@ data quality and minimize contamination. It is often easy to propose to use eDNA
 important questions in conservation, ecology or epidemiology, but it can be much harder to
 deliver high-quality, validated eDNA data. Clean labs ideally have positive air pressure to
 minimize contamination, HEPA filtration, a one-way workflow, and are easily cleaned and
-sterilized. Because of the price and the need for a clean eDNA dedicated space (Table 1), it is
+sterilized. Because of the price and the need for a clean eDNA dedicated space (:numref:`table_1`), it is
 often more cost-effective to collaborate with eDNA researchers or use services provided by
 companies. See :numref:`flowchart_with_costs` for rough estimates on costs and labour requirements.
 
@@ -59,15 +59,21 @@ companies. See :numref:`flowchart_with_costs` for rough estimates on costs and l
   Bureau Veritas (https://www.bvna.com/sites/g/files/zypfnx386/files/media/document/eDNA%20Testing.pdf; qPCR only),
   UNBC Genetics Lab (https://www2.unbc.ca/genetics/pricing).
 
-.. csv-table:: **Table 1.** A list of some laboratory apparatus required for an eDNA clean space. Higher budget
+.. raw:: latex
+
+    \begin{landscape}
+
+.. _table_1:
+.. csv-table:: A list of some laboratory apparatus required for an eDNA clean space. Higher budget
                labs may have additional equipment such as a positive airflow room. Prices are list prices in
                CAD in July 2022.
    :file: ../tables/table_1.csv
+   :widths: 20 8 28 44
    :header-rows: 1
 
-Insert Table 1 as image
+.. raw:: latex
 
-.. Could embed this as a table using code
+    \end{landscape}
 
 .. _flowchart_with_costs:
 .. figure:: ../images/Figure_12.png
@@ -177,20 +183,20 @@ Weather events such as precipitation may also dilute eDNA or increase inhibition
 turbidity (Chen et al. 2023; Osathanunkul and Suwannapoom 2024). Many optimal sampling
 locales in a system may not be easily accessible, or may be on private property, and a pilot
 study and site scouting may be needed. Finally, hydrological properties must be a key
-consideration of your study design (Table 4).
+consideration of your study design (:numref:`table_4`).
 
-**Table 3.** Common definitions for site terminology and replicate types in eDNA studies
-(adapted from Abbott et al. 2021).
+.. _table_3:
+.. csv-table:: Common definitions for site terminology and replicate types in eDNA studies
+               (adapted from Abbott *et al.* 2021).
+   :file: ../tables/table_3.csv
+   :widths: 20 80
+   :header-rows: 0
 
-Insert Table 3 as image
+.. _table_4:
+.. list-table:: Sampling scheme considerations for lentic and lotic systems.
 
-.. Could embed this as a table using code
-
-**Table 4.** Sampling scheme considerations for lentic and lotic systems.
-
-Insert Table 4 as image
-
-.. Could embed this as a table using code
+   * -
+      .. image:: ../tables/table_4.png
 
 Precautions to avoid contamination
 ----------------------------------
@@ -204,14 +210,30 @@ entering any water body as bleach solution that has not dissipated could harm or
 disposable latex or nitrile gloves to collect the samples and change gloves between sites or if
 contamination is suspected. Wear a mask during sample collection to prevent breathing based
 contamination. Using controls at all stages of your workflow is crucial for measuring
-contamination at each stage (Table 5). Positive signals within controls may be used to diagnose
+contamination at each stage (:numref:`table_5`). Positive signals within controls may be used to diagnose
 protocol issues and used as a threshold criteria for positive detection.
 
-**Table 5.** Types of negative controls in eDNA studies in the sampling and extraction process.
+.. _table_5:
+.. list-table:: Types of negative controls in eDNA studies in the sampling and extraction process.
+   :widths: 20 80
 
-Insert Table 5 as image
-
-.. Could embed this as a table using code
+   * - **Field control**
+     -
+        - Consists of DNA free water subject to similar conditions as samples
+        - Negative control processed in the field, left open to air while eDNA samples are collected
+        - Detects droplet and aerial contamination on site, cross contamination between sites
+   * - **Filtration control**
+     -
+        - Consists of DNA free water exposed only during filtering
+        - Filtered in the same way as samples, subject to same cleaning protocols
+        - Characterizes contamination from filtration process, such as handling contamination or contamination between
+          samples
+   * - **Extraction control**
+     -
+        - Consists of empty collection tube with buffer
+        - Goes through same DNA extraction process as samples
+        - Characterizes contamination incurred during laboratory extraction process, such as from extraction reagents
+          and between samples or from apparatus during extraction
 
 Metadata
 --------

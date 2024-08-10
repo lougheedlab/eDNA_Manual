@@ -342,7 +342,7 @@ PCR (NTC_PCR).
     read of the positive control in the NTCs, so no need to filter the positive control. We
     obtain the Table B below.
 
-*Table B.* ESV abundance table filtered by NTCs.
+**Table B.** ESV abundance table filtered by NTCs.
 
 =========  ========  ========  ========  ========  ========
 =========    S1_1      S1_2      S1_3       PC1       PC2

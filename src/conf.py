@@ -37,6 +37,9 @@ numfig_secnum_depth = 0
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_css_files = [
+    'css/custom.css'
+]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -66,5 +69,6 @@ latex_elements = {
     \usepackage[Sonny]{fncychap}
     \renewcommand\FmN[1]{}
     """,
+    'preamble': r"""\usepackage{lscape}""",
 }
 latex_additional_files = ["images/QUBS.png"]

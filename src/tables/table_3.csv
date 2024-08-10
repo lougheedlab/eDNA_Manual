@@ -1,0 +1,6 @@
+Region,"Broad area that describe the context of the study (watershed, management area, etc) - Bay of Quinte, St. Lawrence River, Rideau Canal."
+Sites,"Independent sampling sites that cover different aspects of the region (distinct waterbodies or parts of waterbodies, segments of a river)."
+Stations,"Sampling locales within a site (spatial replicates) that are used to improve species detection or evaluation DNA variation within systems or habitats (grid/transect sampling, multiple locations within a lake, etc)."
+Field Replicates,"Separate sampling units collected at the same station at the same time, stored in separate containers, analyzed independently (to measure sampling-based variation). Usually a minimum of 3."
+Filter Replicates,"Obtained by cutting a filter into separate pieces and independently testing each piece, often for separate types of analysis."
+Technical Replicates,"Separate qPCR or PCR reactions from the same DNA extract/sample, minimum of 3."
