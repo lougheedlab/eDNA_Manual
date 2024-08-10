@@ -18,7 +18,5 @@ CC-BY-4.0 Creative Commons License 2022-2024
 
 *This has been a ‘living document’ that we have continued to edit & update each year and will continue to do so.*
 
-.. eventually we can autogenerate this to keep it updated?
-
-**How to cite this document:** Tournayre, O. Tian, H., Maracle, S., R., & Lougheed, S. C. (2024). An overview and guide to
-environmental DNA protocols and workflows. Version 2.01 Queen’s University, Kingston, Ontario, Canada.
+**How to cite this document:** Tournayre, O. Tian, H., Maracle, S., R., & Lougheed, S. C. (2024). An overview and guide
+to environmental DNA protocols and workflows. Version |version|. Queen’s University, Kingston, Ontario, Canada.
