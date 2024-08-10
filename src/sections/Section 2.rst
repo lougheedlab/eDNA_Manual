@@ -10,7 +10,7 @@ eDNA-based studies:
 genomic technologies for environmental science and management, with an emphasis on
 issues and considerations, diversity of applications and case studies. Available for purchase on
 Google Play or Amazon. Some chapters are available for free using the following link:
-https://books.google.ca/books?hl=fr&lr=&id=2YXmEAAAQBAJ&oi=fnd&pg=PA2017&dq=metabarcoding&ots=CrlH2b6U6S&sig=c5o307zGDNmjtNzmWnMG4BqmH4&redir_esc=y#v=onepage&q=metabarcoding&f=false
+https://books.google.ca/books?id=2YXmEAAAQBAJ&lpg=PA1986&pg=PA2017#v=onepage&q&f=false
 
 **Environmental DNA. For biodiversity research and monitoring** (Taberlet et al. 2018. 272 pp.
 Oxford University Press): covers definition and history of eDNA, protocols and guidance on
@@ -22,14 +22,15 @@ samples). *Available for purchase at Oxford University Press or Amazon.*
 detailed information and instructions on each step of the processes of eDNA surveys (factors
 influencing source of eDNA, sampling, DNA extraction, target species detection,
 metabarcoding, …).
-https://www.naturemetrics.co.uk/wpcontent/uploads/2022/01/NatureMetrics_Practical_Guide_to_DNA_Kat_Bruce_et_al_2021.pdf
+https://ab.pensoft.net/book/68634/
 
 **Guidance on the use of targeted environmental DNA (eDNA) analysis for the management
 of aquatic invasive species and species-at-risk** (Abbott et al. 2021): research document
 published by Fisheries and Oceans Canada - Canadian Science Advisory Secretariat, available
 both in English and in French. This document focuses on single-species detection and supports
 Aquatic Invasive Species (AIS) and Species At Risk (SAR) managers by providing considerations
-related to the definition of eDNA, and sampling, detection and analysis. https://wavesvagues.dfo-mpo.gc.ca/Library/40960791.pdf
+related to the definition of eDNA, and sampling, detection and analysis.
+https://wavesvagues.dfo-mpo.gc.ca/Library/40960791.pdf
 
 **Environmental DNA and its application to Fisheries and Oceans Canada: National needs and
 priorities** (Baillie et al. 2019): review report on the state of knowledge on eDNA, including
