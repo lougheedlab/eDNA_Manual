@@ -79,7 +79,7 @@ processing, detection criteria, and statistical analyses (Goldberg, Turner, et a
 :numref:`flowchart` for a workflow chart and recommended reporting at each stage.
 
 .. _flowchart:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_3.png
    :alt: Conceptual flowchart of a potential workflow for developing an eDNA study, with
          minimum recommended reporting standards for each stage.
 

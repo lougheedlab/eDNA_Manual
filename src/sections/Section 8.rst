@@ -70,7 +70,7 @@ Insert Table 1 as image
 .. Could embed this as a table using code
 
 .. _flowchart_with_costs:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_12.png
    :alt: Flowchart with rough costs and processing time for potential stages of an eDNA workflow.
 
    Flowchart with rough costs and processing time for potential stages of an eDNA
@@ -120,7 +120,7 @@ novo. For more details on qPCR/dPCR assay development, see:
 - https://blog.addgene.org/deep-dive-qpcr
 
 .. _flowchart_ssa:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_13.png
    :alt: Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
 
    Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
@@ -293,7 +293,7 @@ reactions (e.g. Turner et al. 2014, Feng, Bulté, and Lougheed, 2020, Chen et al
 See :numref:`extraction_steps` for a general eDNA extraction workflow.
 
 .. _extraction_steps:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_14.png
    :alt: General steps in DNA extraction noting myriad protocols and variations therein.
 
    General steps in DNA extraction noting myriad protocols and variations therein.
@@ -373,7 +373,7 @@ traces and then uses this model to compute an optimal Cq value” and the single
 mode “… uses a single threshold value to calculate the Cq value based on the threshold crossing
 point of individual fluorescence traces”.*
 
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_16.png
    :alt: Example amplification curve chart.
 
    Example amplification curve chart. The Y-axis is in relative fluorescence units
@@ -399,7 +399,7 @@ are specific; however, if multi-peaks are observed primers may have amplified di
 fragments. This blog post provides detailed information on reasons and solutions for efficiency
 values that are too low or high: https://biosistemika.com/blog/qpcr-efficiency-over-100/.
 
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_17.png
    :alt: Example amplification curve for standards and standard curve.
 
    Example amplification curve for standards (left) and standard curve (right). The
@@ -426,7 +426,7 @@ presence of primer/dimers in your reaction. For more details on melt curve analy
 https://www.idtdna.com/pages/education/decoded/article/interpreting-melt-curves-anindicator-not-a-diagnosis.
 
 .. _melting_curve:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_18.png
    :alt: Example melt curve and first derivative of melt curve.
 
    Example melt curve and first derivative of melt curve (right). The sample with a
@@ -457,26 +457,26 @@ respectively. The observed concentration can be converted into the number of cop
 in the starting material.
 
 .. _droplet_count:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_19.png
    :alt: Example droplet count graph.
 
-   **Figure 19.** Example droplet count graph. The number of droplets in each well is on the Y-axis.
+   Example droplet count graph. The number of droplets in each well is on the Y-axis.
    Well labels are on the X-axis. Taken from Bio-Rad QX Manager 2 software (Bio-Rad
    Laboratories, Inc).
 
 .. _droplet_amp:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_20.png
    :alt: Example droplet amplitude graph.
 
-   **Figure 20.** Example droplet amplitude graph. The RFU of each droplet is on the Y-axis. Well
+   Example droplet amplitude graph. The RFU of each droplet is on the Y-axis. Well
    labels are on the X-axis. The red line indicates the threshold (dividing line between positive
    and negative droplets. Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
 
 .. _conc_graph:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_21.png
    :alt: Concentration graph.
 
-   **Figure 21.** Concentration graph. The concentration in copies/μL is on the Y-axis. Well labels
+   Concentration graph. The concentration in copies/μL is on the Y-axis. Well labels
    are on the X-axis. Concentrations were calculated by the software with Poisson statistics.
    Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
 

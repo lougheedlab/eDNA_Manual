@@ -63,7 +63,7 @@ taxonomic identification and resolution remains challenged by incomplete referen
 databases and intraspecies variation in genomic and organellar DNA (Singer et al., 2020).
 
 .. _scholar:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_10.png
    :alt: Bar chart depicting the number of publications using the terms “eDNA
          Metabarcoding” found in Google scholar each year since the term was introduced in 2012.
          Data accessed on April 18, 2024.

@@ -241,7 +241,7 @@ scale. Nevertheless, the use of LAMP in biomedical and environmental detection h
 significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
 
 .. _lamp1:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_8.png
    :alt: Primers used in LAMP.
 
    Primers used in LAMP. The boxes on the lines represent different parts of the target
@@ -250,7 +250,7 @@ significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
    sequence they are from. Primers are approximately 20 bp long.
 
 .. _lamp2:
-.. figure:: ../images/Missing.png
+.. figure:: ../images/Figure_9.png
    :alt: LAMP process.
 
    LAMP process.
