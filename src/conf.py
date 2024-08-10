@@ -69,6 +69,6 @@ latex_elements = {
     \usepackage[Sonny]{fncychap}
     \renewcommand\FmN[1]{}
     """,
-    'preamble': r"""\usepackage{lscape}""",
+    'preamble': r"""\usepackage{pdflscape}""",
 }
 latex_additional_files = ["images/QUBS.png"]
