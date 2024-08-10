@@ -557,5 +557,21 @@ image quality filter. Expected PF is usually >70-80%.
 Global percentage of bases whose Q score > 30 (global index of sequencing quality). A Q score
 of 30 indicates the probability of one incorrect base every 1,000 bases.
 
+.. raw:: latex
+
+    \begin{mybox}[floatplacement=t,label={box:first}]{}
+
+.. raw:: html
+
+    <fieldset class="edna-box"><legend>Box 1</legend>
+
 .. image:: ../images/Box_1.png
    :alt: Box 1
+
+.. raw:: html
+
+    </fieldset>
+
+.. raw:: latex
+
+    \end{mybox}

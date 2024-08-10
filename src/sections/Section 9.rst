@@ -112,11 +112,27 @@ are kept in the dataset (Mathon et al. 2021). The remaining sequences after deno
 called Exact Sequence Variants (ESV). ESV can reveal variation in sequences of as little as one
 base pair difference.
 
-**BOX 2.** Obiclean (obitools; Boyer et al. 2016) denoising function. A sequence can be tagged
+.. raw:: latex
+
+    \begin{mybox}[floatplacement=t,label={box:second}]{}
+
+.. raw:: html
+
+    <fieldset class="edna-box"><legend>Box 2</legend>
+
+Obiclean (obitools; Boyer et al. 2016) denoising function. A sequence can be tagged
 as head, internal or singleton.
 
 .. image:: ../images/Box_2.png
    :alt: Box 2
+
+.. raw:: html
+
+    </fieldset>
+
+.. raw:: latex
+
+    \end{mybox}
 
 Some species may be split across several ESVs due to intra-species variation. An
 alternative approach to ESV is clustering very similar sequences into a single unit called

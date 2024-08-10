@@ -16,3 +16,19 @@ table > caption > .caption-number {
 table td ul.simple {
     margin-bottom: 0;
 }
+
+
+fieldset.edna-box {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+}
+
+fieldset.edna-box > legend {
+    width: auto;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 12px;
+    margin-bottom: 0;
+}

@@ -69,6 +69,11 @@ latex_elements = {
     \usepackage[Sonny]{fncychap}
     \renewcommand\FmN[1]{}
     """,
-    'preamble': r"""\usepackage{pdflscape}""",
+    # For tcolorbox see https://tex.stackexchange.com/questions/371007/how-to-make-a-box-in-the-sense-of-see-box-1
+    'preamble': r"""
+    \usepackage{pdflscape}
+    \usepackage{tcolorbox}
+    \newtcolorbox[auto counter]{mybox}[1][]{float,title={Box~\thetcbcounter},#1}
+    """,
 }
 latex_additional_files = ["images/QUBS.png"]
