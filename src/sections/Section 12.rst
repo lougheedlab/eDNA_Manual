@@ -17,8 +17,8 @@ Environmental DNA, 3(2), 492-514. https://doi.org/10.1002/edn3.141
 
 Antich, A., Palacin, C., Wangensteen, O. S., & Turon, X. (2021). To denoise or to
 cluster, that is not the question: optimizing pipelines for COI metabarcoding and
-metaphylogeography. BMC Bioinformatics, 22, 1-24. https://doi.org/10.1186/s12859-
-021-04115-6
+metaphylogeography. BMC Bioinformatics, 22, 1-24.
+https://doi.org/10.1186/s12859-021-04115-6
 
 Baillie, S. M., McGowan, C., May-McNally, S., Leggatt, R., Sutherland, B. J., & Robinson,
 S. (2019). Environmental DNA and its applications to Fisheries and Oceans Canada:
@@ -252,8 +252,8 @@ Resources, 17(2), 221-229. https://doi.org/10.1111/1755-0998.12619
 
 Hunter, M. E., Ferrante, J. A., Meigs-Friend, G., & Ulmer, A. (2019). Improving eDNA
 yield and inhibitor reduction through increased water volumes and multi-filter
-isolation techniques. Scientific Reports, 9(1), 5259. https://doi.org/10.1038/s41598-
-019-40977-w
+isolation techniques. Scientific Reports, 9(1), 5259.
+https://doi.org/10.1038/s41598-019-40977-w
 
 Janda, J. M., & Abbott, S. L. (2007). 16S rRNA gene sequencing for bacterial
 identification in the diagnostic laboratory: pluses, perils, and pitfalls. Journal of Clinical
@@ -337,8 +337,8 @@ lake. Environmental DNA, 1(1), 26-39. https://doi.org/10.1002/edn3.5
 
 Littlefair, J. E., Rennie, M. D., & Cristescu, M. E. (2022). Environmental nucleic acids: A
 field-based comparison for monitoring freshwater habitats using eDNA and eRNA.
-Molecular Ecology Resources, 22(8), 2928-2940. https://doi.org/10.1111/1755-
-0998.13671
+Molecular Ecology Resources, 22(8), 2928-2940.
+https://doi.org/10.1111/1755-0998.13671
 
 Macher, T. H., Arle, J., Beermann, A. J., Frank, L., Hupało, K., Koschorreck, J., ... &
 Leese, F. Is it worth the extra mile? Comparing environmental DNA and RNA
@@ -382,6 +382,7 @@ https://doi.org/10.1038/s41598-021-82205-4
 Martin, D. I., Ross, R., Quetin, L., & Murray, A. (2006). Molecular approach (PCRDGGE)
 to diet analysis in young Antarctic krill Euphausia Superba. Marine Ecology
 Progress Series, 319 (August), 155–65. https://doi.org/10.3354/meps319155
+
 Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput
 sequencing reads. EMBnet.Journal, 17(1), 10–12.
 https://doi.org/10.14806/ej.17.1.200
@@ -425,7 +426,7 @@ https://doi.org/10.1021/acs.biochem.8b00200
 Mishra, S., Goyal, D., & Phurailatpam, L. (2021). Targeted 16S rRNA gene and ITS2
 amplicon sequencing of leaf and spike tissues of Piper longum identifies new
 candidates for bioprospecting of bioactive compounds. Archives of Microbiology,
-203(7), 3851-3867.
+203(7), 3851-3867. https://doi.org/10.1007/s00203-021-02356-w
 
 Miya, M., Sato, Y., Fukunaga, T., Sado, T., Poulsen, J. Y., Sato, K., Minamoto, T.,
 Yamanaka, H., Araki, H., & Iwasaki, W. (2015). MiFish, a set of universal PCR primers
@@ -457,7 +458,6 @@ Nørgaard, L., Olesen, C. R., Trøjelsgaard, K., Pertoldi, C., Nielsen, J. L., T
 Ruiz-González, A., De Barba, M., & Iacolina, L. (2021). eDNA metabarcoding for
 biodiversity assessment, generalist predators as sampling assistants. Scientific
 Reports, 11(1), 6820. https://doi.org/10.1038/s41598-021-85488-9
-66
 
 Notomi, T., Okayama, H., Masubuchi, H., Yonekawa, T., Watanabe, K., Amino, N., &
 Hase, T. (2000). Loop-mediated isothermal amplification of DNA. Nucleic Acids
@@ -465,8 +465,8 @@ Research, 28(12), e63. https://doi.org/10.1093/nar/28.12.e63
 
 Oehm, J., Juen, A., Nagiller, K., Neuhauser, S., & Traugott, M. (2011). Molecular
 scatology: How to improve prey DNA detection success in avian faeces? Molecular
-Ecology Resources, 11(4), 620–628. https://doi.org/10.1111/j.1755-
-0998.2011.03001.x
+Ecology Resources, 11(4), 620–628.
+https://doi.org/10.1111/j.1755-0998.2011.03001.x
 
 Ogram, A., Sayler, G. S., & Barkay, T. (1987). The extraction and purification of
 microbial DNA from sediments. Journal of Microbiological Methods, 7(2), 57–66.
@@ -480,6 +480,7 @@ https://doi.org/10.1071/WR12114
 Osathanunkul, M., & Suwannapoom, C. (2024). A comparative study on eDNA-based
 detection of Siamese bat catfish (Oreoglanis siamensis) in wet and dry conditions.
 Scientific Reports, 14(1), 8885. https://doi.org/10.1038/s41598-024-58752-x
+
 Parsley, M. B., & Goldberg, C. S. (2023). Environmental RNA can distinguish life stages
 in amphibian populations. Molecular Ecology Resources, 24(4), e13857.
 https://doi.org/10.1111/1755-0998.13857
@@ -509,7 +510,6 @@ https://doi.org/10.1111/j.1471-8286.2007.01678.x
 Ririe, K. M., Rasmussen, R. P., Wittwer, C. T. (1997). Product differentiation by analysis
 of DNA melting curves during the polymerase chain reaction. Analytical Biochemistry,
 245(2), 154-160. https://doi.org/10.1006/abio.1996.9916
-67
 
 Rognes, T., Flouri, T., Nichols, B., Quince, C., & Mahé, F. (2016). VSEARCH: A versatile
 open source tool for metagenomics. PeerJ, 4(October), e2584.
@@ -550,8 +550,8 @@ of Sciences, 116(18), 8931–8940. https://doi.org/10.1073/pnas.1815046116
 
 Shogren, A. J., Tank, J. L., Andruszkiewicz, E., Olds, B., Mahon, A. R., Jerde, C. L., &
 Bolster, D. 2017. Controls on eDNA movement in streams: Transport, retention, and
-resuspension. Scientific Reports, 7(1), 5065. https://doi.org/10.1038/s41598-017-
-05223-1
+resuspension. Scientific Reports, 7(1), 5065.
+https://doi.org/10.1038/s41598-017-05223-1
 
 Singer, G. A., Shekarriz, S., McCarthy, A., Fahner, N., & Hajibabaei, M. (2020). The
 utility of a metagenomics approach for marine biomonitoring. BioRxiv, 2020-03.
@@ -559,8 +559,7 @@ https://doi.org/10.1101/2020.03.16.993667
 
 Slatko, B. E., Gardner, A. F., & Ausubel, F. M. (2018). Overview of next-generation
 sequencing technologies. Current Protocols In Molecular Biology, 122(1), e59.
-https://doi.org/10.1002%2Fcpmb.59
-68
+https://doi.org/10.1002/cpmb.59
 
 Soraka, M., Wasowicz, B., & Rymaszewska, A. (2021). Loop-mediated isothermal
 amplification (LAMP): The better sibling of PCR. Cells, 10(8), 1931.
@@ -580,8 +579,7 @@ Biodiversity Research and Monitoring. Illustrated edition. Oxford, United Kingdo
 Oxford University Press.
 
 Taberlet, P, Coissac, E., Hajibabaei, & Rieseberg, M. L. H. (2012). Environmental DNA.
-Molecular Ecology, 21(8), 1789–1793. https://doi.org/10.1111/j.1365-
-294X.2012.05542.x
+Molecular Ecology, 21(8), 1789–1793. https://doi.org/10.1111/j.1365-294X.2012.05542.x
 
 Takasaki, K., Aihara, H., Imanaka, T., Matsudaira, T., Tsukahara, K., Usui, A., Osaki, S.,
 & Doi, H. (2021). Water pre-filtration methods to improve environmental DNA
@@ -623,7 +621,7 @@ Z., Ridal, J., Wang, Y., Cumming, B. F., Arnott, S. E., & Lougheed, S. C. 2023b.
 barcode (almost all) freshwater biodiversity. bioRxiv: 2023-12.
 https://doi.org/10.1101/2023.12.13.571596
 
-Tournayre, O., Leuchtmann,M., Filippi-Codaccioni, O., Trillat, M., Piry, S., Pontier, D.,
+Tournayre, O., Leuchtmann, M., Filippi-Codaccioni, O., Trillat, M., Piry, S., Pontier, D.,
 Charbonnel, N., & Galan, M. (2020). In silico and empirical evaluation of twelve
 metabarcoding primer sets for insectivorous diet analyses. Ecology and Evolution,
 10(13), 6310–6332. https://doi.org/10.1002/ece3.6362
@@ -640,7 +638,7 @@ Ecology and Evolution, 5(7), 676–684. https://doi.org/10.1111/2041-210X.12206
 Vanderpool, D. D., Wilcox T. M., Young, M. K., Pilgrim, K. L., & Schwartz, M. K. (2024).
 Simultaneous species detection and discovery with environmental DNA
 metabarcoding: A freshwater mollusk case study. Ecology and Evolution, 14(2),
-e11020.https://doi.org/10.1002/ece3.11020
+e11020. https://doi.org/10.1002/ece3.11020
 
 Vythalingam, L. M., Hossain, M. A. M., & Bhassu, S. (2021). Rapid in-situ detection kit
 (RisK): Development of loop-mediated isothermal amplification (LAMP) assay for the
@@ -650,7 +648,7 @@ https://doi.org/10.1016/j.mcp.2020.101683
 
 Walz, K., Yamahara, K., Michisaki, R., & Chavez, F. 2019. Environmental DNA (eDNA)
 extraction using Qiagen DNeasy Blood and Tissue Kit V.2. Protocols.io.
-dx.doi.org/10.17504/protocols.io.n2udgew
+https://doi.org/10.17504/protocols.io.n2udgew
 
 Wilcox, T. M., McKelvey, K. S., Young, M. K., Jane, S. F., Lowe, W. H., Whiteley, A. R., &
 Schwartz, M. K. (2013). Robust detection of rare species using environmental DNA:
