@@ -11,7 +11,7 @@ Conventional Polymerase Chain Reaction (PCR)
 ============================================
 
 The presence/absence of a species in an environmental sample can be determined
-using conventional PCR and agarose gel electrophoresis (:numref:`pcr_phases`) (Ficetola et al. 2008; Jerde
+using conventional PCR and agarose gel electrophoresis (:numref:`fig_pcr_phases`) (Ficetola et al. 2008; Jerde
 et al. 2011; Olson et al. 2012; Mahon et al. 2013; Dejean et al. 2011). Positive samples are
 indicated by a distinct band at the expected amplicon size (length of the target DNA fragment
 plus the flanking primers). While this approach is the cheapest for single species detection, it
@@ -34,7 +34,7 @@ assesses final concentrations of the focal amplicon (i.e. after PCR amplificatio
 values are not necessarily proportional to original concentration in the environmental sample
 (stochasticity and amplification bias; Kelly, Shelton, and Gallego 2019).
 
-.. _pcr_phases:
+.. _fig_pcr_phases:
 .. figure:: ../images/Figure_5.png
    :alt: PCR phases.
 
@@ -193,8 +193,8 @@ et al., 2015).
 Droplet digital PCR (ddPCR) is based on water-oil emulsion droplet technology: a DNA
 sample is randomly partitioned into up to 20,000 individual droplets which are then
 independently amplified by conventional PCR enabling detection and quantification of very
-low amounts of DNA (Nathan et al. 2014) (:numref:`ddPCR`). Concentration of target DNA is then
-determined by the fraction of positive droplets at the end of the PCR reaction (:numref:`ddPCR`),
+low amounts of DNA (Nathan et al. 2014) (:numref:`fig_ddPCR`). Concentration of target DNA is then
+determined by the fraction of positive droplets at the end of the PCR reaction (:numref:`fig_ddPCR`),
 whereas qPCR fluorescence is measured in real-time. ddPCR has several advantages compared
 to qPCR (Mauvisseau et al. 2019; Kamel et al. 2021; Doiet al. 2015a; Doiet al. 2015b): 1) ddPCR
 provides absolute quantification without the use of a standard curve; 2) ddPCR has a lower
@@ -202,7 +202,7 @@ sensitivity to inhibitors (e.g. humic substances) present in environmental sampl
 quantified concentration can be more accurate than qPCR especially at low concentration. As
 of April, 2024, Bio-Rad is the only supplier of ddPCR systems (see references).
 
-.. _ddPCR:
+.. _fig_ddPCR:
 .. figure:: ../images/Figure_7.png
    :alt: ddPCR workflow and graphic output.
 
@@ -221,8 +221,8 @@ target sequence of DNA. These consist of a pair of external primers (which are s
 conventional PCR primers), a pair of internal primers, one complementary to the sense strand
 slightly downstream of the external primers, and the other complementary to an inner region
 of the target DNA sequence, and finally an optional pair of loop primers, which target regions
-between the two internal primer targets (:numref:`lamp1`). For more information on the mechanisms
-of LAMP, refer to: https://youtu.be/L5zi2P4lggw and :numref:`lamp2`.
+between the two internal primer targets (:numref:`fig_lamp1`). For more information on the mechanisms
+of LAMP, refer to: https://youtu.be/L5zi2P4lggw and :numref:`fig_lamp2`.
 
 LAMP has advantages and disadvantages over PCR, qPCR, or ddPCR. Unlike PCR-based
 detection methods, LAMP is isothermal and does not require temperature cycling. This can
@@ -240,7 +240,7 @@ are difficult to design manually, and LAMP reagents are more costly due to lower
 scale. Nevertheless, the use of LAMP in biomedical and environmental detection has received
 significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
 
-.. _lamp1:
+.. _fig_lamp1:
 .. figure:: ../images/Figure_8.png
    :alt: Primers used in LAMP.
 
@@ -249,7 +249,7 @@ significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
    boxes are primers, and their colour and solid/striped fill-in indicates which part of the target
    sequence they are from. Primers are approximately 20 bp long.
 
-.. _lamp2:
+.. _fig_lamp2:
 .. figure:: ../images/Figure_9.png
    :alt: LAMP process.
 

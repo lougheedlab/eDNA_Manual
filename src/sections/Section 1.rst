@@ -17,7 +17,7 @@ throughout the process from sample collection to data processing and interpretat
 biases can greatly influence species detection results.
 
 We began writing this document as an accompaniment for an eDNA workshop offered at our
-Queen’s University Biological Station (`https://qubs.ca <https://qubs.ca>`). The overarching goal
+Queen’s University Biological Station (`https://qubs.ca <https://qubs.ca>`_). The overarching goal
 of the workshop and thus this manual is to provide a general overview of the procedures
 used in eDNA studies for both single-species and multi-species detections. This 5-day workshop was
 designed to benefit those interested in undertaking eDNA studies themselves, or in reading and
