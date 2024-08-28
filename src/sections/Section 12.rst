@@ -617,9 +617,9 @@ central Thailand. Acta Chiropterologica, 23(1), 93–106.
 https://doi.org/10.3161/15081109ACC2021.23.1.008
 
 Tournayre, O., Tian, H., Lougheed, D. R., Windle, M. J. S., Lambert, S., Carter, J., Sun,
-Z., Ridal, J., Wang, Y., Cumming, B. F., Arnott, S. E., & Lougheed, S. C. 2023b. How to
-barcode (almost all) freshwater biodiversity. bioRxiv: 2023-12.
-https://doi.org/10.1101/2023.12.13.571596
+Z., Ridal, J., Wang, Y., Cumming, B. F., Arnott, S. E., & Lougheed, S. C. (2024). How to
+barcode (almost all) freshwater biodiversity. Environmental DNA, 6(4), e590.
+https://doi.org/10.1002/edn3.590
 
 Tournayre, O., Leuchtmann, M., Filippi-Codaccioni, O., Trillat, M., Piry, S., Pontier, D.,
 Charbonnel, N., & Galan, M. (2020). In silico and empirical evaluation of twelve
@@ -627,9 +627,9 @@ metabarcoding primer sets for insectivorous diet analyses. Ecology and Evolution
 10(13), 6310–6332. https://doi.org/10.1002/ece3.6362
 
 Tournayre, O., Wolfe, R., McCurdy-Adams, H., Chabot, A. A., & Lougheed, S. C.
-(2023a). A species-specific digital PCR assay for the endangered blue racer (Coluber
-constrictor foxii) in Canada. Genome, 66(9). 251-260. https://doi.org/10.1139/gen-
-2023-0008
+(2023). A species-specific digital PCR assay for the endangered blue racer (Coluber
+constrictor foxii) in Canada. Genome, 66(9). 251-260.
+https://doi.org/10.1139/gen-2023-0008
 
 Turner, C. R., Barnes, M. A., Xu, C. C. Y., Jones, S. E., Jerde, C. L., & Lodge, D. M. (2014).
 Particle size distribution and optimal capture of aqueous macrobial eDNA. Methods in

@@ -31,7 +31,7 @@ corresponding copies of mitochondrial/chloroplast DNA per cell, those genes are 
 preferred targets for eDNA assays.
 
 Once DNA is released into the environment, several biotic and abiotic factors can
-influence its persistence and detection probability (:numref:`processes`). eDNA can diffuse and thus be
+influence its persistence and detection probability (:numref:`fig_processes`). eDNA can diffuse and thus be
 transported tens of kilometres by external means such as human activities (e.g. boats) or
 animals (e.g. leeches, predator), or by internal sources such as stream flow (Deiner and
 Altermatt 2014). Three main processes control eDNA movement in stream: transport,
@@ -63,8 +63,8 @@ completely understood (Mauvisseau, Harper, et al. 2022). Current best practice i
 reporting as many parameters as possible, and using analytical controls during water sampling
 and processing.
 
-.. _processes:
-.. figure:: ../images/Figure_2.png
+.. _fig_processes:
+.. figure:: ../images/processes_influencing_eDNA.png
    :alt: Illustration of the processes (shedding, degradation, retention, resuspension, transportation)
          influencing eDNA detection in the environment.
 
@@ -76,10 +76,10 @@ emerged (See CSA W214:21 and CSA W219:23). Current best practice includes meticu
 documentation of assay development, sampling schema, multiple controls, filtration
 protocols, contamination precautions, metadata collection, wet-lab processing, dry lab
 processing, detection criteria, and statistical analyses (Goldberg, Turner, et al. 2016). See
-:numref:`flowchart` for a workflow chart and recommended reporting at each stage.
+:numref:`fig_flowchart` for a workflow chart and recommended reporting at each stage.
 
-.. _flowchart:
-.. figure:: ../images/Figure_3.png
+.. _fig_flowchart:
+.. figure:: ../images/eDNA_workflow_flowchart.png
    :alt: Conceptual flowchart of a potential workflow for developing an eDNA study, with
          minimum recommended reporting standards for each stage.
 

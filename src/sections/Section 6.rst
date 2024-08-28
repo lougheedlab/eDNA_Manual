@@ -35,7 +35,7 @@ values are not necessarily proportional to original concentration in the environ
 (stochasticity and amplification bias; Kelly, Shelton, and Gallego 2019).
 
 .. _fig_pcr_phases:
-.. figure:: ../images/Figure_5.png
+.. figure:: ../images/PCR_phases.png
    :alt: PCR phases.
 
    PCR phases. i) Denaturation (92°-95°C): heat denatures DNA strands into single-stranded
@@ -70,22 +70,22 @@ quantification of DNA using those chemistries is made possible by the continuous
 proportionality between the level of fluorescence and the amount of amplified DNA. As the
 fluorescence is directly proportional to the number of amplicons produced during
 amplification, the fluorescence follows a typical amplification curve over the amplification
-cycles (:numref:`fig6` A). During the first cycles the fluorescence emission cannot be distinguished
+cycles (:numref:`fig_fluor_emission` A). During the first cycles the fluorescence emission cannot be distinguished
 from the background noise (too few amplicons; PHASE 1), after which fluorescence level
 exceeds the background noise (detection threshold) and linearly increases (PHASE 2) to reach
 a plateau during which very few new amplicons are produced (PHASE 3). The number of cycles
 to pass the detection threshold (Ct or Cq value - synonyms) is inversely proportional to the
 number of copies of template DNA originally present in the sample. The unknown
 concentration of the extracted DNA sample is calculated using a linear regression of known
-concentration standards (“standard curve” or “calibration curve”, :numref:`fig6` B). The standard
+concentration standards (“standard curve” or “calibration curve”, :numref:`fig_fluor_emission` B). The standard
 curve is made from serial dilutions (2 to 10-fold) of a positive control (known concentrations
 of DNA of the species of interest). Synthetic DNA is preferred to DNA extracted from tissue or
 blood, as it has a fixed number of base pairs and can be quantified in terms of copies per
 volume (Langlois et al. 2021). When using extracted DNA, it is typically best to verify the
 identity of the sample through PCR and Sanger sequencing if possible.
 
-.. _fig6:
-.. figure:: ../images/Figure_6.png
+.. _fig_fluor_emission:
+.. figure:: ../images/fluor_emission.png
    :alt: Fluorescence emission across cycles and standard curve results.
 
    **A)** Fluorescence emission across cycles. Phase 1 is defined by fluorescence emission
@@ -203,7 +203,7 @@ quantified concentration can be more accurate than qPCR especially at low concen
 of April, 2024, Bio-Rad is the only supplier of ddPCR systems (see references).
 
 .. _fig_ddPCR:
-.. figure:: ../images/Figure_7.png
+.. figure:: ../images/ddPCR_workflow.png
    :alt: ddPCR workflow and graphic output.
 
    ddPCR workflow and graphic output.
@@ -241,7 +241,7 @@ scale. Nevertheless, the use of LAMP in biomedical and environmental detection h
 significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
 
 .. _fig_lamp1:
-.. figure:: ../images/Figure_8.png
+.. figure:: ../images/LAMP_primers.png
    :alt: Primers used in LAMP.
 
    Primers used in LAMP. The boxes on the lines represent different parts of the target
@@ -250,7 +250,7 @@ significant recent attention (Seki et al. 2018; Ganguli et al. 2020).
    sequence they are from. Primers are approximately 20 bp long.
 
 .. _fig_lamp2:
-.. figure:: ../images/Figure_9.png
+.. figure:: ../images/LAMP_process.png
    :alt: LAMP process.
 
    LAMP process.

@@ -48,7 +48,7 @@ deliver high-quality, validated eDNA data. Clean labs ideally have positive air 
 minimize contamination, HEPA filtration, a one-way workflow, and are easily cleaned and
 sterilized. Because of the price and the need for a clean eDNA dedicated space (:numref:`table_1`), it is
 often more cost-effective to collaborate with eDNA researchers or use services provided by
-companies. See :numref:`flowchart_with_costs` for rough estimates on costs and labour requirements.
+companies. See :numref:`fig_flowchart_with_costs` for rough estimates on costs and labour requirements.
 
 - Examples of academic eDNA research labs in Canada: Lougheed Lab (Queen’s University, ON),
   Clare Lab (York University, ON), Cristescu Lab (McGill University, QC) Hanner Lab (University of Guelph, ON),
@@ -75,8 +75,8 @@ companies. See :numref:`flowchart_with_costs` for rough estimates on costs and l
 
     \end{landscape}
 
-.. _flowchart_with_costs:
-.. figure:: ../images/Figure_12.png
+.. _fig_flowchart_with_costs:
+.. figure:: ../images/flowchart_with_costs.png
    :alt: Flowchart with rough costs and processing time for potential stages of an eDNA workflow.
 
    Flowchart with rough costs and processing time for potential stages of an eDNA
@@ -98,7 +98,7 @@ focal species/group(s) already exist. This can easily be done using keywords on 
 `Web of Science <https://clarivate.com/products/scientific-and-academic-research/research-discovery-and-workflow-solutions/webofscience-platform/>`_.
 If primers are already available, it is important to i) check whether they
 have been validated properly (Langlois et al. 2021; Elbrecht et al. 2016; Thalinger et al. 2021b;
-Tournayre et al. 2023a) and ii) test them yourself using positive controls (e.g. species of
+Tournayre et al. 2023) and ii) test them yourself using positive controls (e.g. species of
 interest, mock communities) and negative controls. Simply because they worked in one lab
 does not automatically translate into a working assay in your lab (different instruments,
 different source samples, potentially different versions of your consumables). Amplification
@@ -106,7 +106,7 @@ efficiency is specific to the qPCR/dPCR platform and reagents it was tested on.
 
 Ideally, primers must be validated in silico (predicted amplification success using
 reference sequences), in vitro (DNA from tissues), and in situ (eDNA samples with known
-presence and known absence of the target species) (:numref:`flowchart_ssa`). Various software and online
+presence and known absence of the target species) (:numref:`fig_flowchart_ssa`). Various software and online
 tools for in silico testing exist. The specificity of species-specific primers are usually evaluated
 “by-eye” (i.e. counting the number of mismatches between primers/probe and template
 sequence in an alignment) or ‘blasted’ in the National Center for Biotechnology Information
@@ -118,15 +118,15 @@ simultaneous evaluation of the primers and probe. A recent online machine learni
 eDNAssay, has been developed to overcome these limitations (Kronenberger et al. 2022;
 https://nationalgenomicscenter.shinyapps.io/eDNAssay/). Initially developed to predict qPCR
 cross-amplification (e.g. Katz et al. 2023, Nordstrom et al. 2023), it has also been used in ddPCR
-(Tournayre et al. 2023a) and metabarcoding (Vanderpool et al. 2024) studies. In general, using
+(Tournayre et al. 2023) and metabarcoding (Vanderpool et al. 2024) studies. In general, using
 existing primers from the literature requires significantly less testing than creating an assay de
 novo. For more details on qPCR/dPCR assay development, see:
 
 - https://bitesizebio.com/10041/designing-qpcr-primers/
 - https://blog.addgene.org/deep-dive-qpcr
 
-.. _flowchart_ssa:
-.. figure:: ../images/Figure_13.png
+.. _fig_flowchart_ssa:
+.. figure:: ../images/eDNA_single_species_flowchart.png
    :alt: Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
 
    Flowchart of eDNA single species assay (qPCR or dPCR) development and validation.
@@ -149,19 +149,107 @@ of C (50%) and T (50%) allowing binding to both C and T at the same base positio
    :file: ../tables/table_2.csv
    :header-rows: 1
 
-To our knowledge, only two tools have been developed to facilitate primer selection:
-the in silico-based MultiBarcodeTools (https://multibarcode.k.u-tokyo.ac.jp/; Zhu and
-Iwasaki, 2023), and the real metabarcoding data-based SNIPe (https://snipe.dlougheed.com/;
-Tournayre et al. 2023b). The latter provides a comparison of the primer pairs based on the
+To our knowledge, as of writing this text in 2024, only two tools have been developed to facilitate
+primer selection: the in silico-based MultiBarcodeTools (https://multibarcode.k.u-tokyo.ac.jp/; Zhu
+and Iwasaki, 2023), and the real metabarcoding data-based SNIPe (https://snipe.dlougheed.com/;
+Tournayre et al. 2024). The latter provides a comparison of the primer pairs based on the
 number of detected taxa, the taxonomic resolution of these identifications, and the number
-of off-target detections. Because metabarcoding studies target a large number of taxa it would
-be very challenging to test species one by one. Instead, it is possible to use mock communities.
+of off-target detections. Because metabarcoding studies target a many taxa simultaneously it would
+be very challenging to test species one by one. Instead, it is possible to use mock communities
+(mixtures of DNA from suites of taxa to mimic what we may find in nature). We illustrate the
+usefulness of SNIPe :ref:`below<An example, using SNIPe to select three primer pairs to survey fish>`.
 
 Primers and probes can be ordered from the following companies (a non-exhaustive list
 biased towards our own experiences): Integrated DNA Technology (IDT), Eurofins Genomics,
 ThermoFisher or Applied Biological Materials. Primers and probes should be stored at -20°C,
 aliquoted into separate tubes, and kept isolated from sources of DNA (e.g. samples, tubes of
 DNA extracts, PCR plates) to limit degradation and possibilities for contamination.
+
+An example, using SNIPe to select three primer pairs to survey fish
+-------------------------------------------------------------------
+
+Tournayre et al. (2024) tested 14 primer pairs (from the literature, modified from the literature,
+and of their own design) in silico, using DNA from tissues, using mock communities comprising
+different mixtures of DNA, using samples from aquaria with known species, and using eDNA samples
+from natural water bodies. The different primer pairs (see the original paper for details) were
+originally designed to target particular taxa (e.g. flowering plants including macrophytes, fish,
+macroinvertebrates, phytoplankton) but also do detect other taxa for which they were not designed
+(so-called ‘off-target taxa – see glossary). In total, Tournayre et al. (2024) detected 461 taxa
+including bacteria, invertebrates, vertebrates across classes, rotifers, tardigrades, bryophytes,
+angiosperms and microfungi. Using this dataset and SNIPe we can explore what subsets of these
+assayed primers might be most useful for surveying particular taxa of interest (note that SNIPe
+does allow for users to upload their own validated eDNA dataset using multiple primers).
+
+To illustrated SNIPe, let’s suppose that we wish to select the best combination of three primer
+pairs for surveying fish communities. Using the 14-primer pair dataset, we find two combinations
+of three primer pairs that detect 30 ‘on-target’ taxa (i.e. fish species) (:numref:`fig_snipe_1`).
+Each set of three primer pairs also adds three additional taxa that would otherwise not be detected
+using two of the three primer pairs. How might we decide then which three primer pair set to deploy
+for actual surveys of fish communities? Here we can note that the 16SMOL-COIFish-COIFishdegen
+combination yields 39 ‘off-target’ taxa including crustaceans, birds, mammals, worms and even
+bacteria and bryozoans, whereas the COIFish-COIFishdegen-MiFish primer pair combination yield only
+9 ‘off-target’ taxa all vertebrates. In this instance then, we may wish to go with the second set
+of primer pairs (noting of course that there may be other factors at play in one’s lab including
+whether one has data from previous studies from one or more of these primer sets).
+
+.. _fig_snipe_1:
+.. figure:: ../images/SNIPe_1.jpg
+   :alt: SNIPe finds two three-primer-pair combinations yielding 30 ‘on-target’ taxa using the
+         Tournayre et al. (2024) dataset.
+
+   SNIPe finds two three-primer-pair combinations yielding 30 ‘on-target’ taxa using the
+   Tournayre et al. (2024) dataset.
+
+SNIPe provides many other outputs that may prove useful. For example, :numref:`fig_snipe_2` shows
+the Euler diagram for the COIFish-COIFishdegen-MiFish primer pairs showing overlap in species
+detections (e.g. all three primer pairs detect ten fish species, COIfishdegen and MiFish both
+detect an additional fish species not detected by COIfish, and MiFish detects three fish species
+not detected by the other two primer pairs).
+
+.. _fig_snipe_2:
+.. figure:: ../images/SNIPe_2.jpg
+   :alt: Euler diagram of species detections for the COIFish-COIFishdegen-MiFish primer pair set.
+
+   Euler diagram of species detections for the COIFish-COIFishdegen-MiFish primer pair set.
+
+For the 16SMOL-COIFish-COIfishdegen primer pair combination we can visualize the accumulation of
+new taxa across primer pairs but also identify which of the primer pair(s) is resulting in
+‘off-target’ detection, in this case 16SMOL (:numref:`fig_snipe_3`).
+
+.. _fig_snipe_3:
+.. figure:: ../images/SNIPe_3.jpg
+   :alt: SNIPe view showing taxa coverage by taxon ‘supergroup’.
+
+   SNIPe view showing taxa coverage by taxon ‘supergroup’.
+
+Finally, we can visualize the lists of taxa detected (both on-target or off-target or both) and can
+download a CSV file of ‘on-target’ taxa as shown below for the COIFish-COIFishdegen-MiFish primer
+pairs (:numref:`table_snipe_ex`. Two of the detections are not to species level but rather to genus
+(Lepomus sp., visible in :numref:`table_snipe_ex`, and Catostomus sp.) revealing modest lack of
+resolution for these primers.
+
+.. raw:: latex
+
+    \begin{landscape}
+
+.. raw:: html
+
+    <div class="table-wide">
+
+.. _table_snipe_ex:
+.. csv-table:: Downloaded primer set (3-2; three primer pairs, second possible optimal combination) from SNIPe. Only 22
+               rows are shown; the full result-set has 58 rows.
+   :file: ../tables/SNIPe_ex_fish_3-2_truncated.csv
+   :header-rows: 1
+
+.. raw:: html
+
+    </div>
+
+.. raw:: latex
+
+    \end{landscape}
+
 
 eDNA sampling & storage
 =======================
@@ -171,7 +259,8 @@ Please refer to Section 2.1. Sampling strategy, and Figure 2 and Table 1 of Bruc
 where to sample and sample number/volume in lentic, lotic and marine ecosystems:
 https://ab.pensoft.net/book/68634/.
 It is critical that you report your definition of sampling region, sites, stations, and
-replicates in whatever materials you produce from your eDNA research (Table 3).
+replicates in whatever materials you produce from your eDNA research
+(:numref:`table_site_terminology`).
 
 In general, your sampling scheme should consider your biological questions, the life
 history (especially phenology) of your target species, the hydrological characteristics of your
@@ -183,16 +272,16 @@ Weather events such as precipitation may also dilute eDNA or increase inhibition
 turbidity (Chen et al. 2023; Osathanunkul and Suwannapoom 2024). Many optimal sampling
 locales in a system may not be easily accessible, or may be on private property, and a pilot
 study and site scouting may be needed. Finally, hydrological properties must be a key
-consideration of your study design (:numref:`table_4`).
+consideration of your study design (:numref:`table_lotic_lentic`).
 
-.. _table_3:
+.. _table_site_terminology:
 .. csv-table:: Common definitions for site terminology and replicate types in eDNA studies
                (adapted from Abbott *et al.* 2021).
    :file: ../tables/table_3.csv
    :widths: 20 80
    :header-rows: 0
 
-.. _table_4:
+.. _table_lotic_lentic:
 .. list-table:: Sampling scheme considerations for lentic and lotic systems.
 
    * -
@@ -210,10 +299,10 @@ entering any water body as bleach solution that has not dissipated could harm or
 disposable latex or nitrile gloves to collect the samples and change gloves between sites or if
 contamination is suspected. Wear a mask during sample collection to prevent breathing based
 contamination. Using controls at all stages of your workflow is crucial for measuring
-contamination at each stage (:numref:`table_5`). Positive signals within controls may be used to diagnose
-protocol issues and used as a threshold criteria for positive detection.
+contamination at each stage (:numref:`table_neg_controls`). Positive signals within controls may be
+used to diagnose protocol issues and used as a threshold criteria for positive detection.
 
-.. _table_5:
+.. _table_neg_controls:
 .. list-table:: Types of negative controls in eDNA studies in the sampling and extraction process.
    :widths: 20 80
 
@@ -312,10 +401,10 @@ Many methods and kits are used for eDNA extraction, the most commonly being the
 QIAGEN Blood and Tissue kit (e.g. Thomsen et al., 2012, Hinlo, Gleeson, and Furlan 2017, Walz,
 Yamahara, and Chavez 2019, Qiagen N.V.), and the cheaper alternative based on chloroformphenol
 reactions (e.g. Turner et al. 2014, Feng, Bulté, and Lougheed, 2020, Chen et al. 2023).
-See :numref:`extraction_steps` for a general eDNA extraction workflow.
+See :numref:`fig_extraction_steps` for a general eDNA extraction workflow.
 
-.. _extraction_steps:
-.. figure:: ../images/Figure_14.png
+.. _fig_extraction_steps:
+.. figure:: ../images/DNA_extraction_steps.png
    :alt: General steps in DNA extraction noting myriad protocols and variations therein.
 
    General steps in DNA extraction noting myriad protocols and variations therein.
@@ -345,12 +434,14 @@ error is when a sequence is attributed to the wrong sample, leading to false
 positive detection (species is detected as present but is absent) in that sample. Therefore,
 using a non-resident control allows one to calculate the rate of false-assignment and to correct
 the data accordingly. DNA amplification success can be verified by running the PCR/qPCR
-product in an agarose gel (Figure 15).
+product in an agarose gel (:numref:`fig_agarose_1per`).
 
 *List of all controls:* NCfield, NCfiltration, NCextraction, NCPCR1, NCPCR2 (for 2 step PCR only),
-Positive control and technical replicates (Table 3, Table 5).
+Positive control and technical replicates (:numref:`table_site_terminology`,
+:numref:`table_neg_controls`).
 
-.. figure:: ../images/Figure_15.png
+.. _fig_agarose_1per:
+.. figure:: ../images/agarose_gel_1percent.png
    :alt: Photo of a 1% agarose gel.
 
    Photo of a 1% agarose gel. L = DNA Ladder (100 to 1,500 bp), 1 = No-template
@@ -395,7 +486,7 @@ traces and then uses this model to compute an optimal Cq value” and the single
 mode “… uses a single threshold value to calculate the Cq value based on the threshold crossing
 point of individual fluorescence traces”.*
 
-.. figure:: ../images/Figure_16.png
+.. figure:: ../images/amp_curve_1.png
    :alt: Example amplification curve chart.
 
    Example amplification curve chart. The Y-axis is in relative fluorescence units
@@ -409,19 +500,20 @@ Standard curve
 The vertical axis shows the Cq value and the horizontal axis shows the log of the starting
 concentration (log starting quantity). The legend shows the type of DNA template (standard
 or target sample), the colour of the fluorophore (e.g. FAM or HEX), efficiency (%; how much is
-being produced with each cycle), :math:`R^2` (goodness-of-fit), slope of the standard curve, and yintercept
-values (where the curve intercepts the y-axis).
+being produced with each cycle), :math:`R^2` (goodness-of-fit), slope of the standard curve, and
+y-intercept values (where the curve intercepts the y-axis).
 
 **Note:** It is possible to obtain an E value higher than 100%. This can be explained by an excess
 of starting quantity templates or the presence of inhibitors that prevent Cq values from
 shifting into earlier cycles as product concentration increases. It can also be explained by the
 non-specificity of the primers when using intercalating dyes like SYBR green. This can be
-checked by looking at the melting curve (:numref:`melting_curve`): if only one curve is observed then primers
-are specific; however, if multi-peaks are observed primers may have amplified different
-fragments. This blog post provides detailed information on reasons and solutions for efficiency
-values that are too low or high: https://biosistemika.com/blog/qpcr-efficiency-over-100/.
+checked by looking at the melting curve (:numref:`fig_melting_curve`): if only one curve is
+observed then primers are specific; however, if multi-peaks are observed primers may have amplified
+different fragments. This blog post provides detailed information on reasons and solutions for
+efficiency values that are too low or high:
+https://biosistemika.com/blog/qpcr-efficiency-over-100/.
 
-.. figure:: ../images/Figure_17.png
+.. figure:: ../images/amp_curve_2.png
    :alt: Example amplification curve for standards and standard curve.
 
    Example amplification curve for standards (left) and standard curve (right). The
@@ -447,8 +539,8 @@ platforms. These peaks can help you assess if there is non-specific amplificatio
 presence of primer/dimers in your reaction. For more details on melt curve analysis, read:
 https://www.idtdna.com/pages/education/decoded/article/interpreting-melt-curves-anindicator-not-a-diagnosis.
 
-.. _melting_curve:
-.. figure:: ../images/Figure_18.png
+.. _fig_melting_curve:
+.. figure:: ../images/melt_curve.png
    :alt: Example melt curve and first derivative of melt curve.
 
    Example melt curve and first derivative of melt curve (right). The sample with a
@@ -468,34 +560,34 @@ ddPCR
 
 The first ddPCR output to check is the number of droplets generated for each sample.
 The number of droplets must be equal or superior to 10,000 and uniform among samples to
-allow comparison (:numref:`droplet_count`). The second main output is the number of positive and negative
-droplets (:numref:`droplet_amp`). The threshold is automatically calculated by the software but can be
+allow comparison (:numref:`fig_droplet_count`). The second main output is the number of positive and negative
+droplets (:numref:`fig_droplet_amp`). The threshold is automatically calculated by the software but can be
 adjusted manually. Separation of positive and negative droplets can be improved through
 incubating the PCR product before droplet reading in fridge conditions (4°C) for 3 hours to
 overnight (Personal communications, Bio-Rad). The third output (calculated based on the
-other ones) is the concentration of the target species (number of DNA copies/μL) (:numref:`conc_graph`).
+other ones) is the concentration of the target species (number of DNA copies/μL) (:numref:`fig_conc_graph`).
 The lower and upper limits of concentration are 0.25 copies/μL and 5,000 copies/μL,
 respectively. The observed concentration can be converted into the number of copies present
 in the starting material.
 
-.. _droplet_count:
-.. figure:: ../images/Figure_19.png
+.. _fig_droplet_count:
+.. figure:: ../images/droplet_count.png
    :alt: Example droplet count graph.
 
    Example droplet count graph. The number of droplets in each well is on the Y-axis.
    Well labels are on the X-axis. Taken from Bio-Rad QX Manager 2 software (Bio-Rad
    Laboratories, Inc).
 
-.. _droplet_amp:
-.. figure:: ../images/Figure_20.png
+.. _fig_droplet_amp:
+.. figure:: ../images/droplet_amp.png
    :alt: Example droplet amplitude graph.
 
    Example droplet amplitude graph. The RFU of each droplet is on the Y-axis. Well
    labels are on the X-axis. The red line indicates the threshold (dividing line between positive
    and negative droplets. Taken from Bio-Rad QX Manager 2 software (Bio-Rad Laboratories, Inc).
 
-.. _conc_graph:
-.. figure:: ../images/Figure_21.png
+.. _fig_conc_graph:
+.. figure:: ../images/conc_graph.png
    :alt: Concentration graph.
 
    Concentration graph. The concentration in copies/μL is on the Y-axis. Well labels
@@ -506,20 +598,20 @@ The following example is provided by Bio-Rad in the Droplet Digital PCR Applicat
 guide to understand how to convert copies/μL into copies in the starting material (from:
 https://www.bio-rad.com/webroot/web/pdf/lsr/literature/Bulletin_6407.pdf ):
 
-    *"Mix 10 μl of sample with 12.5 μl of ddPCR Supermix for Probes and 2.5 μl of assay
+    *“Mix 10 μl of sample with 12.5 μl of ddPCR Supermix for Probes and 2.5 μl of assay
     (primer and probe mix), for a total volume of 25 μl. Load 20 μl of this mix into a DG8™
     DropletGenerator Cartridge and run ddPCR. The software reports that the concentration
     is 8 copies/μl. Two equivalent methods illustrate how many total copies and how many
-    copies/μl of the target DNA were present in the original 10 μl sample.
+    copies/μl of the target DNA were present in the original 10 μl sample.*
 
-    Method #1: The ratio of sample to total volume is 10/25 = 2/5. Since there were 8
+    *Method #1: The ratio of sample to total volume is 10/25 = 2/5. Since there were 8
     copies/μl in the final PCR mix, there were 8 x (5/2) = 20 copies/μl in the original sample.
-    In the full 10 μl of the original sample, there were 10 x 20 = 200 copies of the target DNA.
+    In the full 10 μl of the original sample, there were 10 x 20 = 200 copies of the target DNA.*
 
-    Method #2: Since there were 8 copies/μl in the PCR mix and a total of 25 μl of the PCR
+    *Method #2: Since there were 8 copies/μl in the PCR mix and a total of 25 μl of the PCR
     mix was made, there were 8 x 25 = 200 copies of the target DNA in the PCR mix. This mix
     contained 10 μl of the original sample, so there were 200 copies of target DNA in the full
-    10 μl of starting sample, and 200/10 = 20 copies/μl of target in the starting sample"*
+    10 μl of starting sample, and 200/10 = 20 copies/μl of target in the starting sample”*
 
 Metabarcoding (pair-end sequencing)
 -----------------------------------

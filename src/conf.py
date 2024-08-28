@@ -4,10 +4,10 @@
 
 project = 'An Overview and Simple Guide to Environmental DNA Protocols and Workflows'
 copyright = '2024, the authors'
-author = 'Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Maracle, and Stephen C. Lougheed'
+author = 'Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Maracle, David R. Lougheed, and Stephen C. Lougheed'
 
-release = '2.1'
-version = '2.1.0'
+release = '2.2'
+version = '2.2.0'
 
 # -- General configuration
 

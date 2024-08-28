@@ -25,10 +25,11 @@ biodiversity gaps using cutting-edge eDNA technology on >30,000 freshwater sampl
 around the world.
 
 Identifying taxa from an eDNA sample can be done using different approaches,
-depending on the aim of the study (:numref:`approach`), and are described in the sections below.
+depending on the aim of the study (:numref:`fig_approaches`), and are described in the sections
+below.
 
-.. _approach:
-.. figure:: ../images/Figure_4.png
+.. _fig_approaches:
+.. figure:: ../images/eDNA_approaches.png
    :alt: eDNA species-specific and multi-species approach.
 
    eDNA species-specific and multi-species approach.

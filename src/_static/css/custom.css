@@ -10,11 +10,27 @@ table > caption > .caption-number {
 }
 
 .wy-table-responsive {
-    overflow : visible !important;
+    overflow: visible !important;
+}
+
+.table-wide .wy-table-responsive {
+    overflow-x: auto !important;
+}
+.table-wide table.docutils caption {
+    text-align: left;
+    max-width: 696px;
 }
 
 table td ul.simple {
     margin-bottom: 0;
+}
+
+
+.em-blockquote blockquote p {
+    font-style: italic;
+}
+.em-blockquote blockquote p em {
+    font-style: normal;
 }
 
 

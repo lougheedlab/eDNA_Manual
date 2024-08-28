@@ -36,9 +36,9 @@ We must merge Read 1 and Read 2 to recover the sequence across the full amplicon
 do so we usually use the overlap between Read1 and Read2. The overlap can comprise the
 full amplicon or be partial. For example, if the amplicon is 400bp and was sequenced using
 MiSeq paired-end sequencing 2x250bp, then there is an overlap of 100bp between Read 1 and
-Read2 (:numref:`conc_r1_r2`). Merging improves Q scores of the overlap region but if read quality is poor,
-erroneous bases could cause chimeras (merging reads that are not the same fragment). Three
-parameters must be considered to merge reads: minimum (≥10 bp) and maximum (read
+Read2 (:numref:`fig_r1_r2_overlap`). Merging improves Q scores of the overlap region but if read
+quality is poor, erroneous bases could cause chimeras (merging reads that are not the same
+fragment). Three parameters must be considered to merge reads: minimum (≥10 bp) and maximum (read
 length-minimum overlap length) lengths of acceptable overlap and the maximum rate of
 mismatch in the overlap region (e.g. 0.25: 25% mismatches are allowed along the overlapping
 region) (Magoč and Salzberg 2011; Mathon et al. 2021). Sequences presenting greater
@@ -53,8 +53,8 @@ obitools, Pear.
 **Examples of software:** Flash (Magoč and Salzberg 2011), Vsearch (Rognes et al. 2016),
 obitools, Pear.
 
-.. _conc_r1_r2:
-.. figure:: ../images/Figure_22.png
+.. _fig_r1_r2_overlap:
+.. figure:: ../images/r1_r2_overlap.png
    :alt: Calculation of R1 and R2 overlap length.
 
    Calculation of R1 and R2 overlap length.
@@ -144,9 +144,9 @@ we present the most common (1) and the recommended (2) methods (Mathon et al. 20
 
 #. Using a global threshold (usually 97 or 98%). The higher the threshold, the lower is the risk of losing diversity by
    clustering multiple similar species. In addition, the input order changes the OTU construction
-   (:numref:`clustering` A).
+   (:numref:`fig_clustering` A).
 #. Using a single-linkage clustering approach based on a local clustering threshold (d=1,Mathon et al. 2021) and free of
-   input-order dependency (swarm; Mahé et al. 2015) (:numref:`clustering` B).
+   input-order dependency (swarm; Mahé et al. 2015) (:numref:`fig_clustering` B).
 
 There is no clear consensus for using the ESV or the OTU approach (Antich et al. 2021);
 however, it seems that using ESV is increasingly favoured thanks to improvements in the
@@ -155,8 +155,8 @@ known composition) to explore this
 
 **Examples of software:** OBITools, VSEARCH, DADA2, SWARM
 
-.. _clustering:
-.. figure:: ../images/Figure_23.png
+.. _fig_clustering:
+.. figure:: ../images/clustering_methods.png
    :alt: Clustering methods.
 
    Clustering methods using A) a global threshold (left), B) a local threshold (right).
@@ -238,7 +238,7 @@ value”, “Perc. Ident”, “Acc. Len”, “Accession”. The matching seque
 sequences or hits (:numref:`fig_blast`).
 
 .. _fig_blast:
-.. figure:: ../images/Figure_24.png
+.. figure:: ../images/blast.png
    :alt: Example of BLAST output. Sequence is identified as Coturnix sp. (resolution at the
     genus level) as both Coturnix japonica and Coturnix coturnix show high query cover (100% and
     97%, respectively) and 100% percentage identity.
@@ -367,7 +367,9 @@ PCR (NTC_PCR).
   ESV_PC      0         1        10         504      73589
 =========  ========  ========  ========  ========  ========
 
-- Positive control: We observe 1 read and 10 reads of the positive control in S1_2 and S1_3, respectively. Therefore, the maximum number of reads of the positive control in a sample is 10. The total number of reads of the positive control is 1+10+504+73589 = 74093 reads.
+- Positive control: We observe 1 read and 10 reads of the positive control in S1_2 and S1_3,
+  respectively. Therefore, the maximum number of reads of the positive control in a sample is 10.
+  The total number of reads of the positive control is 1+10+504+73589 = 74093 reads.
 
 False assignment rate = (max #reads PC) / (total #reads ESV_PC) = 10/74 093 = 0.000135.
 
@@ -382,7 +384,8 @@ Tfa (ESV_1) = (False assignment rate) * (total #reads of ESV_1) = 0.000135 * (2+
   ESV_1       0         7630    48145
 =========  ========  ========  ========
 
-- Replicates: ESV_1 shows two positive replicates out of three therefore we consider his detection as true detection in sample 1 (S1).
+- Replicates: ESV_1 shows two positive replicates out of three therefore we consider his detection
+  as true detection in sample 1 (S1).
 
 We can now merge the technical replicates (sum the reads).
 
