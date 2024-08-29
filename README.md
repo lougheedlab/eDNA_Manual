@@ -1,5 +1,8 @@
 # An Overview and Guide to Environmental DNA Protocols and Workflows
 
+[![Documentation Status](https://readthedocs.org/projects/edna-manual/badge/?version=stable)](https://edna-manual.readthedocs.io/en/stable/?badge=stable)
+[![10.5281/zenodo.13421371](https://zenodo.org/badge/DOI/10.5281/zenodo.13421371.svg)](https://doi.org/10.5281/zenodo.13421371)
+
 [Orianne Tournayre](https://oriannetournayre.wixsite.com/website) (1, 2), 
 [Haolun (Allen) Tian](https://allensgallery.ca/) (1), 
 Stafford “Rotehrá:kwas” Maracle (1)
