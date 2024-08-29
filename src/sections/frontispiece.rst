@@ -21,4 +21,4 @@ CC-BY-4.0 Creative Commons License 2022-2024
 
 **How to cite this document:** Tournayre, O. Tian, H., Maracle, S. R., Lougheed, D. R., & Lougheed, S. C. (2024).
 An overview and guide to environmental DNA protocols and workflows. Version |version|. Queen’s University, Kingston,
-Ontario, Canada.
+Ontario, Canada. DOI: `10.5281/zenodo.13421371 <https://doi.org/10.5281/zenodo.13421371>`_

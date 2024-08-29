@@ -5,6 +5,7 @@
 project = 'An Overview and Simple Guide to Environmental DNA Protocols and Workflows'
 copyright = '2024, the authors'
 author = 'Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Maracle, David R. Lougheed, and Stephen C. Lougheed'
+# To edit the authors on the cover page of the PDF, edit latex_elements["maketitle"] below
 
 release = '2.2'
 version = '2.2.0'
@@ -53,15 +54,18 @@ latex_documents = [
 latex_elements = {
     # 'extrapackages': r"\usepackage{titling}",
     'maketitle': r"""
-    \author{Orianne Tournayre$^{1,2}$, Haolun (Allen) Tian$^1$, \and Stafford "Rotehrá:kwas" Maracle$^1$, \and and 
-    Stephen C. Lougheed$^1$}
+    \author{Orianne Tournayre$^{1,2}$, Haolun (Allen) Tian$^1$, \and Stafford "Rotehrá:kwas" Maracle$^1$, 
+    David Lougheed$^3$, \and and Stephen C. Lougheed$^1$}
     \date{
     1. Department of Biology, Queen’s University, Kingston, Ontario, Canada \\
-    2. Current address. Department of Biology, York University, Toronto, Ontario, Canada \\~\\~\\
+    2. Current address. Department of Biology, York University, Toronto, Ontario, Canada \\
+    3. Canadian Centre for Computational Genomics, McGill University, Montreal, Quebec, Canada \\~\\
     \centering
     \normalfont 
     \textit{Originally prepared for the Queen’s University Biological Station environmental DNA workshop} \\~\\
     \includegraphics[width=2in]{QUBS}
+    \\~\\~\\
+    DOI: \href{https://doi.org/10.5281/zenodo.13421371}{10.5281/zenodo.13421371}
     }
     \sphinxmaketitle
     """,
