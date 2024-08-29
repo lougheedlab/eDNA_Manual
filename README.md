@@ -5,11 +5,13 @@
 
 [Orianne Tournayre](https://oriannetournayre.wixsite.com/website) (1, 2), 
 [Haolun (Allen) Tian](https://allensgallery.ca/) (1), 
-Stafford “Rotehrá:kwas” Maracle (1)
+Stafford “Rotehrá:kwas” Maracle (1),
+[David R. Lougheed](https://dlougheed.com/) (3),
 and [Stephen C. Lougheed](https://sclougheed.ca/) (1).
 
 1. Department of Biology, Queen’s University, Kingston, Ontario, Canada
 2. Current address. Department of Biology, York University, Toronto, Ontario, Canada
+3. Canadian Centre for Computational Genomics, McGill University, Montreal, Quebec, Canada
 
 
 *Originally prepared for the Queen’s University Biological Station environmental
