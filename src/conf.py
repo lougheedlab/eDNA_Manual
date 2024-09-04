@@ -8,7 +8,7 @@ author = 'Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Marac
 # To edit the authors on the cover page of the PDF, edit latex_elements["maketitle"] below
 
 release = '2.2'
-version = '2.2.0'
+version = '2.2.2'
 
 # -- General configuration
 
