@@ -22,7 +22,12 @@ CC-BY-4.0 Creative Commons License 2022-2024
 *This has been a ‘living document’ that we have continued to edit & update each year and will continue to do so.*
 
 **How to cite this document:** Tournayre, O. Tian, H., Maracle, S., R., & Lougheed, S. C. (2024). An overview and guide 
-to environmental DNA protocols and workflows. Version 2.1.0. Queen’s University, Kingston, Ontario, Canada.
+to environmental DNA protocols and workflows. Version 2.2. Queen’s University, Kingston, Ontario, Canada. 
+DOI: [10.5281/zenodo.13421371](https://doi.org/10.5281/zenodo.13421371)
+
+> **Note:** The DOI provided here links to all versions of the source code for this document. To access a specific 
+> version's DOI, [see here](https://zenodo.org/search?q=parent.id%3A13421371&f=allversions%3Atrue&l=list&p=1&s=10&sort=version)
+> or click "View all [n] versions" on the Zenodo page for a specific document version.
 
 
 ## Project Structure
