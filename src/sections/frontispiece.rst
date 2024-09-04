@@ -15,7 +15,7 @@ David R. Lougheed\ :sup:`3` and Stephen C. Lougheed\ :sup:`1`
 *Originally prepared for the Queen’s University Biological Station environmental
 DNA workshop*
 
-CC-BY-4.0 Creative Commons License 2022-2024
+`CC-BY-4.0 Creative Commons License <https://creativecommons.org/licenses/by/4.0/deed.en>`_ 2022-2024
 
 *This has been a ‘living document’ that we have continued to edit & update each year and will continue to do so.*
 
