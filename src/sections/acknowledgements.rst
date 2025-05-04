@@ -11,3 +11,7 @@ South Frontenac Lake Ecosystem grant, and the Baillie Family Chair in Conservati
 BioRad Canada and QIAGEN Canada have generously supported our workshop at QUBS.
 
 .. logos here
+
+| Lougheed Lab Website: https://sclougheed.ca
+| Orianne Tournayre Website: https://oriannetournayre.wixsite.com/website
+| Haolun (Allen) Tian Website: https://allensgallery.ca
