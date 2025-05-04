@@ -82,7 +82,172 @@ companies. See :numref:`fig_flowchart_with_costs` for rough estimates on costs a
    Flowchart with rough costs and processing time for potential stages of an eDNA
    workflow. All costs are approximate estimates taken from our experiences and are in CAD.
 
-Primers and probes design & validation
+eDNA Lab Design
+===============
+
+Minimizing contamination is critical in eDNA studies for improving signal to noise ratio, accurate
+detection of rare or low abundance species, and avoiding false positives. As it is prohibitively
+expensive to completely retrofit or build a new facility exclusively for eDNA, many labs repurpose
+their existing spaces for eDNA. Therefore, some of the most common sources of false positives in
+eDNA studies are cross-contamination from other samples present in an active lab, particularly from
+tissue DNA extractions or PCR.
+ 
+Avoiding contamination does not require a dedicated facility but can be achieved through trained
+personnel who are highly familiar with precautionary protocols, having dedicated equipment for eDNA
+extraction and pre-PCR steps, proper sample handling and storage, and having dedicated fieldwork
+prep, pre-PCR, and post-PCR workspaces with minimal back-traffic. Although it can be impractical to
+renovate a lab to the highest level of accreditation, ISO/IEC 17025, some simple practices can
+significantly improve your studies. Contamination can occur at any stage in eDNA workflows but is
+typically most critical in pre-PCR stages such as when collecting samples, filtering samples, and
+extracting DNA from filters. In this section, we describe lab design and workflow precautions that
+can help you avoid contamination and get the best possible results from your samples.
+
+
+Personnel Training
+------------------
+
+Personnel involved in eDNA fieldwork and lab work should receive dedicated training specifically
+for eDNA. Although eDNA protocols can be simpler and faster than traditional sampling approaches,
+it is also more prone to contamination and degradation. Personnel should be aware of potential
+contamination sources from both in-lab and out-of-lab sources, how to prevent contamination
+(through proper use of PPE, decontamination with mechanical cleaning, bleach/DNA destroying
+cleaning solutions, and UV light, physical isolation, and proper workflow), and the sensitivity of
+eDNA to degradation (through keeping samples cold, in the dark, and/or dry or in storage
+solutions/buffers). It is easy to become negligent or sloppy in following these protocols, as any
+degradation or contamination will not become evident until lab work and analysis have been
+completed, and it can be difficult to trace the step at which it occurred. Therefore, personnel
+should also take site notes when it is safe to do so, ideally with a standardized sampling sheet
+or app. See Nicholson et al. (2020) for a framework on reporting standards.
+
+Sampling Equipment
+------------------
+
+Prior to sampling, the use of an equipment and task checklist can reduce errors and improve
+workflow. Equipment should be stored away from areas where DNA extraction or PCR is performed and
+should be cleaned before and after sampling with DNA destroying methods (typically dilute bleach
+and UV-C light). In particular, sampling bottles or any reusable equipment that comes in direct
+contact with the sampled water should be carefully cleaned with dilute bleach solution (0.5% to 1%
+sodium hypochlorite, or a 1:10 or 1:5 dilution of household bleach) (Goldberg et al. 2016). During
+sampling, personnel should use adequately sterilize PPE, including nitrile gloves that are changed
+between sites, waders cleaned with brushing, dilute bleach, and dH2O between sites, and face masks
+that are changed between sites. Used and unused PPE should be separated between sites. Bulk
+sampling and tissue sampling should ideally not be conducted at the same time as eDNA, or at least
+as isolated as possible. Collected samples should be kept as physically isolated from both each
+other and unsterilized surfaces as possible through the use of resealable bags and containers.
+Finally, negative controls should be collected at the field and filtration stages of your workflow
+to measure the level of contamination at those steps (Sepulveda et al. 2020).
+
+Dedicated eDNA Lab Apparatus
+----------------------------
+
+Having dedicated equipment for eDNA lab work is critical to avoiding contamination from other
+samples in the lab. Any equipment for liquid handling (e.g. pipettors), that can create aerosols,
+or occupy the same surface is a source of potential cross contamination (Scherczinger et al. 1999).
+
+In general, there should be a set of dedicated equipment for anything involved in eDNA extraction
+or handling eDNA samples prior to any PCR based steps. This includes a biosafety cabinet with
+positive airflow, easy to clean surfaces, and UV-C light for sterilizing the surface, a set of
+dedicated micropipettes, 1.5-2 mL tube racks, tweezers (and anything else used to handle filters),
+lab coats, a microfuge/mini-centrifuge, and vortex. There should also be a dedicated supply of lab
+consumables such as microfuge tubes, falcon tubes, gloves, face masks, extraction reagents or kit,
+and ddH2O. If possible, there should be a dedicated incubator, -20oC freezer (or at least
+dedicated shelves), shaker table, PCR machine, and glassware (Mifflin 2007).
+
+Apparatus dedicated solely for eDNA work should be used for steps prior to PCR. After eDNA has gone
+through PCR, cross-contamination is much less likely (as there are now many more copies of your
+target DNA), and general post-PCR lab equipment can be used on the PCR product. In other words, do
+not use pre-PCR, eDNA specific apparatus for PCR 1 products in your metabarcoding library
+preparations, or for handling qPCR product for Sanger sequencing verification.
+
+Sample handling and Proper Storage
+----------------------------------
+
+Proper sample (both pre-extraction filters and extracted eDNA) handling and storage is critical to
+successful and reproducible eDNA studies. In general, eDNA is more stable later in the workflow. It
+is imperative to filter samples as quickly as possible, ideally on-site, or within 1-2 hours if
+transportation off-site is required. The half-life of eDNA in natural water samples is as little as
+hours due to microbial activity and other decay-causing mechanisms (Mauvisseau et al. 2022). If
+quick filtration is not possible and the sample must be preserved, it should be kept at fridge
+temperatures in the dark if it can be filtered on the same day, or frozen at -20oC if it cannot be
+filtered for several days (Kumar et al. 2019). Note that freezing will degrade the DNA through
+freeze-thaw mechanisms, will not preserve the sample indefinitely, and the sample may take a long
+time to thaw. eDNA is typically more stable once it is filtered and kept in appropriate conditions
+(typically in a 4°C fridge in preservation/lysis buffer or ethanol if it’s to be extracted within a
+week, -20°C freezer conditions for longer term storage, or fully dried with silica beads or other
+desiccating agents) (Kumar et al. 2019). If the filter is not kept in appropriate conditions (for
+example, if it’s exposed to sunlight, kept at room temperature, or is not in an appropriate buffer
+or fully dry), degradation can still rapidly occur, resulting in low yields and false negatives.
+
+eDNA is far more stable after filtration and extraction, as it is now purer and does not have
+biological activity. After extraction, keep eDNA samples in 4oC fridge conditions for immediate use
+(within a few days), in a -20°C freezer for storage and use within a year, and in -80°C ultracold
+conditions or liquid nitrogen for archival storage. To avoid degradation from freeze-thaw cycles,
+aliquot the eDNA into multiple tubes for separate uses.
+
+All samples should be stored away from tissue samples or PCR products, ideally in their own
+fridge/freezers. If dedicated fridges and freezers are not possible, have dedicated shelf space and
+isolate samples with bags, plastic boxes, or other physical separation.
+
+Workspace Separation and Design
+-------------------------------
+
+Optimizing your workspace is critical to maintaining contamination free eDNA samples and obtaining
+accurate results. Organization and foot traffic in your lab should be based on workflow. Areas for
+storing sampling equipment, recently collected samples, and for filtration should be separate from
+areas for molecular labwork. The most important separation in your lab workspace is the divide
+between pre-PCR and post-PCR processes. PCR products are often the worst source of contamination in
+a molecular lab, due to their persistence and the high number of copies of DNA PCR produces. Foot
+traffic should be unidirectional. If separate rooms are not possible, separate bench counter areas
+should be maintained for different purposes, ideally separated by dividers (Mifflin 2007).
+
+eDNA extraction and handling eDNA samples is typically the most contamination sensitive part of
+eDNA workflows and should occur separately from areas for PCR-based assays, work on tissue samples,
+or non-eDNA related labwork. A room dedicated to eDNA extraction should ideally have positive
+airflow to reduce airborne contaminants.
+
+Each lab space should have its own lab coats and supply of masks and gloves. More sensitive rooms
+should also have separate footwear/shoe protections and hairnets.
+ 
+The following figures, made by Dr. Bojian Chen, depict a design for a new lab for eDNA and other
+environmental monitoring protocols to be deployed in eastern Ontario biomonitoring.
+
+.. _fig_2D_lab_layout:
+.. figure:: ../images/eDNA_2D_lab_layout.png
+   :alt: General layout of an eDNA lab. Note how users are directed towards a unidirectional workflow.
+
+   General layout of an eDNA lab. Note how users are directed towards a unidirectional workflow.
+
+.. _fig_eDNA_wetroom:
+.. figure:: ../images/eDNA_wetroom.png
+   :alt: Rendering of the sample filtration/equipment room.
+
+   Rendering of the sample filtration/equipment room.
+
+.. _fig_foyer:
+.. figure:: ../images/foyer.png
+   :alt: Rendering of the foyer room, for storing personal items and for donning PPE.
+
+   Rendering of the foyer room, for storing personal items and for donning PPE.
+
+.. _fig_DNA_extraction_room:
+.. figure:: ../images/DNA_extraction_room.png
+   :alt: Rendering of the extraction and pre-PCR room.
+
+   Rendering of the extraction and pre-PCR room.
+
+.. _fig_library_prep_room:
+.. figure:: ../images/library_prep_room.png
+   :alt: Rendering of the post-PCR and library prep room.
+
+   Rendering of the post-PCR and library prep room.
+
+.. _fig_storage_room:
+.. figure:: ../images/storage_room.png
+   :alt: Rendering of the post-PCR and library prep room.
+
+   Rendering of the general storage area.
+
+Primers and Probes Design & Validation
 ======================================
 
 The choice of primers and markers is a crucial step in eDNA studies. In general, the
