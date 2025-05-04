@@ -251,7 +251,7 @@ resolution for these primers.
     \end{landscape}
 
 
-eDNA sampling & storage
+eDNA Sampling & Storage
 =======================
 
 Please refer to Section 2.1. Sampling strategy, and Figure 2 and Table 1 of Bruce et al.
@@ -373,7 +373,7 @@ filtration (i.e. distilled water filtered along with the samples) must be includ
 session to measure contamination during the filtration process. Disposable gloves should be
 worn and changed when contamination is suspected.
 
-eDNA processing – lab work
+eDNA Processing – Lab Work
 ==========================
 
 Doing lab work involves manipulating chemicals and potentially harmful reagents.
@@ -386,7 +386,7 @@ tie your hair. Keep track of your work, note sample ID, the protocol and any inf
 could be relevant to interpret the data, including suspicion of contamination between samples
 or human error during processing - we highly recommend that you keep a lab book.
 
-DNA extraction
+DNA Extraction
 --------------
 
 Ideally, DNA extractions should be done in a dedicated lab space with no PCR-based
@@ -409,7 +409,7 @@ See :numref:`fig_extraction_steps` for a general eDNA extraction workflow.
 
    General steps in DNA extraction noting myriad protocols and variations therein.
 
-DNA amplification
+DNA Amplification
 -----------------
 
 The use of technical replicates and multiple controls IS necessary to obtain robust data
@@ -448,7 +448,7 @@ Positive control and technical replicates (:numref:`table_site_terminology`,
    control, 2 = Positive control (tissue DNA), 3 to 7 and 12 = failed eDNA samples (no band), 8 to
    11 and 13: successful eDNA samples (bright band at the expected amplicon size).
 
-DNA sequencing (metabarcoding)
+DNA Sequencing (metabarcoding)
 ------------------------------
 
 DNA can be sequenced as single-end (i.e. in only one direction) or as paired-end
