@@ -258,10 +258,10 @@ text).
 #. we incubate at 4°C for 1-2 hours or room temperature overnight, and
 #. DNA precipitation
 
-Use serial elution when there are several filters per sample (see figure below). Conduct eDNA
-extractions in a pre-PCR space. Handle and store filters and extracted eDNA away from bulk samples
-(such as malaise trap samples), tissue samples, PCR products, or DNA constructs. Keep apparatus
-used for pre-PCR away from post-PCR apparatus (see Lab Design for details).
+Use serial elution when there are several filters per sample (see :numref:`fig_serial_elution`).
+Conduct eDNA extractions in a pre-PCR space. Handle and store filters and extracted eDNA away from
+bulk samples (such as malaise trap samples), tissue samples, PCR products, or DNA constructs. Keep
+apparatus used for pre-PCR away from post-PCR apparatus (see Lab Design for details).
 
 Lab Decontamination
 ===================
@@ -346,8 +346,7 @@ DNA Elution
    sample and avoiding freeze-thaw cycles as much as possible.
 #. Clean the bench.
 
-(:numref:`serial_elution`): 
-
+.. _fig_serial_elution:
 .. figure:: ../images/serial_elution.png
    :alt: Serial elution work flow.
 
