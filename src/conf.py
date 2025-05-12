@@ -3,12 +3,12 @@
 # -- Project information
 
 project = 'An Overview and Simple Guide to Environmental DNA Protocols and Workflows'
-copyright = '2024, the authors'
+copyright = '2025, the authors'
 author = 'Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Maracle, David R. Lougheed, and Stephen C. Lougheed'
 # To edit the authors on the cover page of the PDF, edit latex_elements["maketitle"] below
 
-release = '2.2'
-version = '2.2.2'
+release = '2.3'
+version = '2.3.0'
 
 # -- General configuration
 

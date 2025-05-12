@@ -259,28 +259,52 @@ Inhibition and Internal Positive Controls (IPC)
 ===============================================
 
 eDNA samples often contain compounds that inhibit PCR or impede fluorescence
-(McKee et al. 2015), resulting in potential false negatives or lower detected concentrations.
+(McKee et al. 2015) resulting in potential false negatives or lower detected concentrations.
 Inhibitors include compounds from decaying organic materials, such as tannins, humic acids,
-and fulvic acids, excreted compounds , such as bile salts, complex polysaccharides, and urea,
+and fulvic acids, excreted compounds, such as bile salts, complex polysaccharides, and urea,
 and intra-cellular/intra-tissue compounds, such as collagen, heme, and calcium ions (Hunter
-et al. 2019, Rådström et al. 2004). Environmental conditions such as pH can also result in PCR
-inhibition.
+et al. 2019, Rådström et al. 2004). A high concentration of non-target DNA, particularly when
+there are few mismatches between primers and templates is also a potential inhibitor, particularly
+for qPCR (Latham et al. 2023). Environmental conditions such as pH can also result in PCR
+inhibition. Inhibition is typically a significant issue when target DNA concentrations are low
+(below 10-100 copies/µL).
 
-Inhibition effect can be assessed using an Internal Positive Control (IPC, see Klymus et
-al. 2020b for more details). This typically involves the addition of a low concentration
-(approximately 100 copies/μL) of foreign DNA (DNA that is unlikely to be present in your
-sampled site; e.g. from a species endemic to a different continent) and a matching assay which
-must be multiplexed with your target assay to both your eDNA samples and no-template
-controls. Non-amplification, a Cq value shift of over three cycles, or a much lower
-concentration of your IPC assay in your eDNA samples compared to your NTC indicates
-inhibition (Hartman et al. 2005). IPCs must be validated through testing with your assay, as
-multiplexing may be a source of competitive inhibition in itself.
+Best practice in eDNA inhibition involves optimizing sampling protocols in the study design phase,
+using an internal positive control (IPC), using inhibition mitigation methods on samples where
+inhibition has been detected, and properly reporting inhibition. During study design, sites that
+have lower chances of inhibition should be selected when possible. Common indicators of potential
+inhibition include high turbidity, darker water (which is an indicator of humic acid compounds),
+the smell of decaying vegetation (both macrophytes and algal blooms), and a shallow lakebed with
+finer particles. Additionally, sampling should be avoided after immediate precipitation
+(Chen et al. 2023). For sites where inhibition is more likely, larger pore size filters
+(5-10 micron) may reduce clogging and co-extraction of inhibitor compounds (Brown et al. 2025).
 
-When inhibition is detected, methods for reducing it include diluting the eDNA sample
-with buffer or dH2O, altering PCR conditions (by adding bovine serum albumin, using a more
+The effect of inhibition can be assessed using an IPC (see Klymus et al. 2020b for more details).
+This typically involves the addition of a low concentration (approximately 100 copies/µL) of
+foreign DNA (DNA that is unlikely to be present in your sampled site; e.g. from a species endemic
+to a different continent) and a matching assay which must be multiplexed with your target assay to
+both your eDNA samples and no-template controls. In qPCR, non-amplification, a Cq value shift of
+over three cycles, or a much lower concentration of your IPC assay in your eDNA samples compared
+to your NTC indicates inhibition (Hartman et al. 2005). In dPCR, droplet or partition fluorescence
+amplitudes of the IPC assay that are significantly below the positive control indicate inhibition,
+forming a ‘rain’ like pattern of fluorescence amplitudes on the dPCR software (Chen et al. 2023).
+IPCs must be validated through testing with your assay, as multiplexing may be a source of
+competitive inhibition in itself. When inhibition is suspected, IPCs should be used on all samples.
+
+When inhibition is detected, methods for reducing it include diluting the eDNA sample with buffer
+or dH2O, altering PCR conditions (by adding bovine serum albumin or BSA, using a more
 inhibitor-resistant polymerase, changing cycle count, step length, or ramping time) or inhibitor
 removal (through a commercial kit, re-extraction, or ethanol precipitation) (Chen et al. 2023).
 All methods come with their own risks, such as DNA loss with dilution or inhibitor removal, or
-false positives with changing PCR parameters (Goldberg et al. 2016). Inhibition is a complex
-topic that requires trial and error based testing for each study.
+false positives with changing PCR parameters (Goldberg et al. 2016). When the IPC indicates
+inhibition in negative samples, we recommend diluting the eDNA sample with dH2O between 1:10 and
+1:50, and adding 0.1 µg/µl of BSA (Chen et al. 2023, Wang et al. 2017, Kreader 1996). Inhibition
+mitigation is not necessary in positive samples unless quantification is required. In that case,
+dilute the sample and add BSA as with a negative sample, and back-multiply by your dilution factor
+in your concentration calculations.
 
+Inhibition is a complex topic that requires iterative, trial and error-based testing for each
+study. There is currently no consensus on mitigating the negative effects of inhibition in eDNA.
+We recommend reporting the method you used to detect and address the issue of inhibition in detail,
+and indicating which samples had inhibition detected (particularly negative samples). We also
+recommend adapting your sampling scheme based on your results, if possible.

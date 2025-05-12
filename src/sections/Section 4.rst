@@ -3,17 +3,20 @@ Overview of environmental DNA
 =============================
 
 eDNA is defined as a pool of DNA isolated from environmental samples including
-sediment, soil, water, air, feces, or even the surfaces of leaves (Pawlowski, Apothéloz-Perret-
-Gentil, and Altermatt 2020; Taberlet et al. 2012). eDNA can derive from whole organisms (e.g.
+sediment, soil, water, ice, air, feces, or even the surfaces of leaves (Pawlowski, Apothéloz-Perret-Gentil,
+and Altermatt 2020; Taberlet et al. 2012). eDNA can derive from whole organisms (e.g.
 diatoms in water) or gametes, or come from various tissues, secretions like mucus, blood,
 feces, urine, saliva, and shed skin, scales or hair. Mentions of eDNA appeared for the first time
 in the literature in 1987 (extraction of DNA from sediments; Ogram, Sayler, and Barkay 1987)
 and were extended to macro-organisms by the end of the 2000s (see Taberlet et al. 2018 for
-a review on the timeline for eDNA studies). Note that the definition of eDNA is still debated
-(see Pawlowski, Apothéloz-Perret-Gentil, and Altermatt, 2020 for a review). In this manual
-we refer to the general concept of eDNA, that is a total pool of DNA isolated from
-environmental samples independently of its structural state (intra/extra-cellular) (Taberlet et
-al. 2012; Pawlowski, Apothéloz-Perret-Gentil, and Altermatt 2020).
+a review on the timeline for eDNA studies). eDNA differs from bulk samples, such as insects
+collected from malaise traps, because collection is generally passive and focused on environmental
+material. It also differs from soil samples taken with the intent of characterizing total diversity
+in soil via metagenomics, as the field often focuses on eukaryotic species. Note that the
+definition of eDNA is still debated (see Pawlowski, Apothéloz-Perret-Gentil, and Altermatt, 2020
+for a review). In this manual we refer to the general concept of eDNA, that is a total pool of DNA
+isolated from environmental samples independently of its structural state (intra/extra-cellular)
+(Taberlet et al. 2012; Pawlowski, Apothéloz-Perret-Gentil, and Altermatt 2020).
 
 Multiple factors shape the state and detectability of eDNA in the environment (review
 in Rourke et al. 2022). Some organisms are simply less detectable because they shed less DNA

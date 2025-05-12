@@ -7,13 +7,14 @@ Abbott, C., Coulson, M., Gagné, N., Lacoursière, A., Bajno, R., Dietrich, C., 
 management of aquatic invasive species and species at risk. Canadian Science
 Advisory Secretariat (CSAS).
 
-Ando, H., Mukai, H., Komura, T., Dewi, T., Ando, M., & Isagi, Y. (2020). Methodological
-trends and perspectives of animal dietary studies by non-invasive fecal DNA
-metabarcoding. Environmental DNA, 2(4), 391-406. https://doi.org/10.1002/edn3.117
 
 Allan, E. A., Zhang, W. G., C Lavery, A., & F Govindarajan, A. (2021). Environmental
 DNA shedding and decay rates from diverse animal forms and thermal regimes.
 Environmental DNA, 3(2), 492-514. https://doi.org/10.1002/edn3.141
+
+Ando, H., Mukai, H., Komura, T., Dewi, T., Ando, M., & Isagi, Y. (2020). Methodological
+trends and perspectives of animal dietary studies by non-invasive fecal DNA
+metabarcoding. Environmental DNA, 2(4), 391-406. https://doi.org/10.1002/edn3.117
 
 Antich, A., Palacin, C., Wangensteen, O. S., & Turon, X. (2021). To denoise or to
 cluster, that is not the question: optimizing pipelines for COI metabarcoding and
@@ -68,6 +69,10 @@ Boyer, F., Mercier, C., Bonin, A., Le Bras, Y., Taberlet, P., & Coissac, E. (201
 A unix-inspired software package for DNA metabarcoding. Molecular Ecology
 Resources, 16(1), 176-182. https://doi.org/10.1111/1755-0998.12428
 
+Brown, C. D., Hanner, R. H., & Docker, M.F. (2025). Optimization of methods for the collection of
+larval sea lamprey environmental DNA (eDNA) from Great Lakes tributaries. Great Lakes Fishery
+Commission, Laurentian 2025-01.
+
 Bruce, K., Blackman, R. C., Bourlat, S. J., Hellström, M., Bakker, J., Bista, I., ... & Deiner,
 K. (2021). A practical guide to DNA-based methods for biodiversity assessment.
 Pensoft Advanced Books. https://doi.org/10.3897/ab.e68634
@@ -97,6 +102,10 @@ Nature Methods, 13(7), 581-583. https://doi.org/10.1038/nmeth.3869
 Chen, Y., Tournayre, O., Tian, H., & Lougheed, S. C. (2023). Assessing the breeding
 phenology of a threatened frog species using eDNA and automatic acoustic
 monitoring. PeerJ, 11, e14679. https://doi.org/10.7717/peerj.14679
+
+Clare, E.L., Economou, C.K., Faulkes, C.G., Gilbert, J.D., Bennett, F., Drinkwater, R. and
+Littlefair, J.E., 2021. eDNAir: proof of concept that animal DNA can be collected from air
+sampling. PeerJ, 9, p.e11030. https://doi.org/10.7717/peerj.11030
 
 Cristescu, M. E. (2019). Can environmental RNA revolutionize biodiversity science?
 Trends in Ecology & Evolution, 34(8), 694-697.
@@ -134,6 +143,11 @@ Dejean, T., Valentini, A., Duparc, A., Pellier-Cuit, S., Pompanon, F., Taberlet,
 Miaud, C. (2011). Persistence of environmental DNA in freshwater ecosystems. PloS
 One, 6(8), e23398. https://doi.org/10.1371/journal.pone.0023398
 
+Després, V., Huffman, J.A., Burrows, S.M., Hoose, C., Safatov, A., Buryak, G., Fröhlich-Nowoisky,
+J., Elbert, W., Andreae, M., Pöschl, U. and Jaenicke, R., 2012. Primary biological aerosol
+particles in the atmosphere: a review. Tellus B: Chemical and Physical Meteorology, 64(1), p.15598.
+https://doi.org/10.3402/tellusb.v64i0.15598
+
 Doi, H., Takahara, T., Minamoto, T., Matsuhashi, S., Uchii, K., & Yamanaka, H. (2015a).
 Droplet digital polymerase chain reaction (PCR) outperforms real-time PCR in the
 detection of environmental DNA from an invasive fish species. Environmental Science
@@ -148,6 +162,11 @@ Dong, L., Meng, Y., Sui, Z., Wang, J., Wu, L., & Fu, B. (2015). Comparison of fo
 PCR platforms for accurate quantification of DNA copy number of a certified plasmid
 DNA reference material. Nature Scientific Reports, 5, 13174.
 https://doi.org/10.1038/srep13174
+
+Drinkwater, R., Jucker, T., Potter, J.H., Swinfield, T., Coomes, D.A., Slade, E.M.,
+Gilbert, M.T.P., Lewis, O.T., Bernard, H., Struebig, M.J. and Clare, E.L. (2021). Leech blood‐meal
+invertebrate‐derived DNA reveals differences in Bornean mammal diversity across habitats.
+Molecular Ecology, 30(13), pp.3299-3312. https://doi.org/10.1111/mec.15724
 
 Edgar, R. C. (2010). Search and clustering orders of magnitude faster than BLAST.
 Bioinformatics, 26(19), 2460-2461. https://doi.org/10.1093/bioinformatics/btq461
@@ -198,6 +217,15 @@ Ganguli, A., Mostafa, A., Berger, J., Aydin, M. Y., Sun, F., Ramirez, S. A. S. D
 Bashir, R. (2020). Rapid isothermal amplification and portable detection system for
 SARS-CoV-2. Proceedings of the National Academy of Sciences, 117(37), 22727-22735.
 https://doi.org/10.1073/pnas.2014739117
+
+Garrett, N.R., Watkins, J., Francis, C.M., Simmons, N.B., Ivanova, N., Naaum, A., Briscoe, A.,
+Drinkwater, R. and Clare, E.L., 2023. Out of thin air: Surveying tropical bat roosts through air
+sampling of eDNA. PeerJ, 11, p.e14772. https://doi.org/10.7717/peerj.14772
+
+Garrett, N.R., Watkins, J., Simmons, N.B., Fenton, B., Maeda‐Obregon, A., Sanchez, D.E.,
+Froehlich, E.M., Walker, F.M., Littlefair, J.E. and Clare, E.L., 2023. Airborne eDNA documents a
+diverse and ecologically complex tropical bat and other mammal community.
+Environmental DNA, 5(2), pp.350-362. https://doi.org/10.1002/edn3.385
 
 Garlapati, D., Charankumar, B., Ramu, K., Madeswaran, P., & Ramana Murthy, M. V.
 (2019). A review on the applications and recent advances in environmental DNA
@@ -263,6 +291,14 @@ Jerde, C. L., Mahon, A. R., Chadderton, W. L., & Lodge, D. M. (2011). “Sight-u
 detection of rare aquatic species using environmental DNA. Conservation Letters, 4(2),
 150-157. https://doi.org/10.1111/j.1755-263X.2010.00158.x
 
+Johnson, M.D., Barnes, M.A., Garrett, N.R. and Clare, E.L., 2023. Answers blowing in the wind:
+Detection of birds, mammals, and amphibians with airborne environmental DNA in a natural
+environment over a yearlong survey. Environmental DNA, 5(2), pp.375-387.
+https://doi.org/10.1002/edn3.388
+
+Johnson, M.D., Cox, R.D. and Barnes, M.A., 2019. The detection of a non-anemophilous plant species
+using airborne eDNA. PLoS One, 14(11), p.e0225262. https://doi.org/10.1371/journal.pone.0225262
+
 Kagzi, K., Hechler, R. M., Fussmann, G. F., & Cristescu, M. E. (2022). Environmental
 RNA degrades more rapidly than environmental DNA across a broad range of pH
 conditions. Molecular Ecology Resources, 22(7), 2640-2650.
@@ -311,7 +347,11 @@ https://doi.org/10.3791/61825
 Kozich, J. J., Westcott, S. L., Baxter, N. T., Highlander, S. K., & Schloss, P. D. (2013).
 Development of a dual-index sequencing strategy and curation pipeline for analyzing
 amplicon sequence data on the MiSeq Illumina sequencing platform. Applied and
-Environmental Microbiology, 79(17), 5112-5120. https://doi.org/10.1128/AEM.01043-
+Environmental Microbiology, 79(17), 5112-5120. https://doi.org/10.1128/AEM.01043-13
+
+Kreader, C. A. (1996). Relief of amplification inhibition in PCR with bovine serum albumin or T4
+gene 32 protein. Applied and Environmental Microbiology, 62(3), 1102-1106.
+https://doi.org/10.1128/aem.62.3.1102-1106.1996
 
 Kronenberger, J. A., Wilcox, T. M., Mason, D. H., Franklin, T. W., McKelvey, K. S.,
 Young, M. K., & Schwartz, M. K. (2022). eDNAssay: A machine learning tool that
@@ -321,6 +361,13 @@ accurately predicts qPCR cross-amplification. Molecular Ecology Resources, 22(8)
 Kubista, M. Prime time for qPCR – Raising the quality bar. (2014). European
 Pharmaceutical Review, 19(3), 63–67.
 
+Kudoh, A., Minamoto, T. and Yamamoto, S., (2020). Detection of herbivory: eDNA detection from
+feeding marks on leaves. Environmental DNA, 2(4), pp.627-634. https://doi.org/10.1002/edn3.113
+
+Kumar, G., Eble, J.E., & Gaither, M.R. (2020). A practical guide to sample preservation and pre-PCR
+processing of aquatic environmental DNA. Molecular Ecology Resources, 20(1), 29-39.
+https://doi.org/10.1111/1755-0998.13107
+
 Lamb, P. D., Hunter, E., Pinnegar, J. K., Creer, S., Davies, R. G., & Taylor, M. I. (2019).
 How quantitative is metabarcoding: A meta-analytical approach. Molecular Ecology,
 28(2), 420-430. https://doi.org/10.1111/mec.14920
@@ -329,6 +376,9 @@ Langlois, V. S., Allison, M. J., Bergman, L. C., To, T. A., & Helbing, C. C. (20
 for robust qPCR-based eDNA detection assays in environmental monitoring and
 species inventories. Environmental DNA, 3(3), 519-527.
 https://doi.org/10.1002/edn3.164
+
+Latham, S., Hughes, E., Budgen, B., & Morley, A. (2023). Inhibition of the PCR by genomic DNA.
+PLoS One, 18(4), e0284538. https://doi.org/10.1371/journal.pone.0284538
 
 Lawson Handley, L., Read, D. S., Winfield, I. J., Kimbell, H., Johnson, H., Li, J., Hanh, C.,
 Blackman, R., Wilcox, R., Donnelly, R., Szitenberg, A., & Hänfling, B. (2019). Temporal
@@ -340,12 +390,33 @@ field-based comparison for monitoring freshwater habitats using eDNA and eRNA.
 Molecular Ecology Resources, 22(8), 2928-2940.
 https://doi.org/10.1111/1755-0998.13671
 
+Littlefair, J.E., Allerton, J.J., Brown, A.S., Butterfield, D.M., Robins, C., Economou, C.K.,
+Garrett, N.R. and Clare, E.L., 2023. Air-quality networks collect environmental DNA with the
+potential to measure biodiversity at continental scales. Current Biology, 33(11), pp.R426-R428.
+https://doi.org/10.1016/j.cub.2023.04.036
+
+Lynggaard, C., Bertelsen, M.F., Jensen, C.V., Johnson, M.S., Frøslev, T.G., Olsen, M.T. and
+Bohmann, K., 2022. Airborne environmental DNA for terrestrial vertebrate community monitoring.
+Current Biology, 32(3), pp.701-707. https://doi.org/10.1016/j.cub.2021.12.014
+
+Lynggaard, C., Calvignac-Spencer, S., Chapman, C.A., Kalbitzer, U., Leendertz, F.H., Omeja, P.A.,
+Opito, E.A., Sarkar, D., Bohmann, K. and Gogarten, J.F. (2023). Vertebrate environmental DNA from
+leaf swabs. Current Biology, 33(16), pp.R853-R854. https://doi.org/10.1016/j.cub.2023.06.031
+
+Lynggaard, C., Frøslev, T.G., Johnson, M.S., Olsen, M.T. and Bohmann, K., 2024. Airborne
+environmental DNA captures terrestrial vertebrate diversity in nature.
+Molecular Ecology Resources, 24(1), p.e13840. https://doi.org/10.1111/1755-0998.13840
+
 Macher, T. H., Arle, J., Beermann, A. J., Frank, L., Hupało, K., Koschorreck, J., ... &
 Leese, F. Is it worth the extra mile? Comparing environmental DNA and RNA
 metabarcoding for vertebrate and invertebrate biodiversity surveys in a lowland
 stream. DNA metabarcoding for the ecological status assessment in streamsvalidation,
 plausibility check and intercalibration of the new assessment method, PhD
 thesis, Universität Duisburg-Essen, Chapter 4.3, 135-154.
+
+Macher, T.H., Schütz, R., Hörren, T., Beermann, A.J. and Leese, F., 2023. It's raining species:
+Rainwash eDNA metabarcoding as a minimally invasive method to assess tree canopy invertebrate
+diversity. Environmental DNA, 5(1), pp.3-11. https://doi.org/10.1002/edn3.372
 
 Magoč, T., & Salzberg, S. L. (2011). FLASH: fast length adjustment of short reads to
 improve genome assemblies. Bioinformatics, 27(21), 2957-2963.
@@ -413,6 +484,9 @@ genes and genomes: understanding the differences and challenges in the approache
 and software for their analyses. Briefings in Bioinformatics, 16(5), 745-758.
 https://doi.org/10.1093/bib/bbv001
 
+Mifflin, T.E. (2007). Setting up a PCR laboratory. Cold Spring Harbor Protocols, 14.
+https://doi.org/10.1101/pdb.top14
+
 Milla, L., Schmidt-Lebuhn, A., Bovill, J., & Encinas-Viso, F. (2022). Monitoring of honey
 bee floral resources with pollen DNA metabarcoding as a complementary tool to
 vegetation surveys. Ecological Solutions and Evidence, 3(1), e12120.
@@ -448,6 +522,15 @@ Nathan, L. M., Simmons, M., Wegleitner, B. J., Jerde, C. L., and Mahon, A. R. (2
 Quantifying environmental DNA signals for aquatic invasive species across multiple
 detection platforms. Environmental Science & Technology, 48(21), 12800–806.
 https://doi.org/10.1021/es5034052
+
+Newton, J.P., Allentoft, M.E., Bateman, P.W., van der Heyde, M. and Nevill, P., 2025. Targeting
+terrestrial vertebrates with eDNA: Trends, perspectives, and considerations for sampling.
+Environmental DNA, 7(1), p.e70056. https://doi.org/10.1002/edn3.70056
+
+Nicholson, A., McIsaac, D., MacDonald, C., Gec, P., Mason, B.E., Rein, W., Wrobel, J., de Boer, M.,
+Milián-García, Y., & Hanner, R.H. (2020). An analysis of metadata reporting in freshwater
+environmental DNA research calls for the development of best practice guidelines.
+Environmental DNA, 2, 343–349. https://doi.org/10.1002/edn3.81
 
 Nordstrom, B, Budd, A., Mitchell, N., Cornish, C., Byrne, M., Kuchling, G., & Jarman, S.
 (2023). Environmental DNA reflects spatial distribution of a rare turtle in a lentic
@@ -511,6 +594,11 @@ Ririe, K. M., Rasmussen, R. P., Wittwer, C. T. (1997). Product differentiation b
 of DNA melting curves during the polymerase chain reaction. Analytical Biochemistry,
 245(2), 154-160. https://doi.org/10.1006/abio.1996.9916
 
+Roger, F., Ghanavi, H.R., Danielsson, N., Wahlberg, N., Löndahl, J., Pettersson, L.B.,
+Andersson, G.K., Boke Olén, N. and Clough, Y., 2022. Airborne environmental DNA metabarcoding for
+the monitoring of terrestrial insects—A proof of concept from the field.
+Environmental DNA, 4(4), pp.790-807. https://doi.org/10.1002/edn3.290
+
 Rognes, T., Flouri, T., Nichols, B., Quince, C., & Mahé, F. (2016). VSEARCH: A versatile
 open source tool for metagenomics. PeerJ, 4(October), e2584.
 https://doi.org/10.7717/peerj.2584
@@ -534,6 +622,10 @@ allow for reliable biomass estimates in the most abundant animals on Earth.
 Metabarcoding and Metagenomics, 3, e46704.
 https://doi.org/10.3897/mbmg.3.46704
 
+Scherczinger, C. A., Ladd, C., Bourke, M. T., Adamowicz, M. S., Johannes, P. M., Scherczinger, R.,
+Beesley, T., & Lee, H. C., (1999). A systematic analysis of PCR contamination.
+Journal of Forensic Science, 44, 1042-1045.
+
 Schloss, P. D., Gevers, D., & Westcott, S. L. (2011). Reducing the effects of PCR
 amplification and sequencing artifacts on 16S rRNA-based studies. PLoS ONE, 6(12),
 e27310. https://doi.org/10.1371/journal.pone.0027310.
@@ -547,6 +639,10 @@ Willerslev, E., Mwanje, M. T., Madsen, H., Kristensen, T. K., Stensgaard, A., &
 Vennervald, B. J. (2019). Environmental DNA for improved detection and
 environmental surveillance of schistosomiasis. Proceedings of the National Academy
 of Sciences, 116(18), 8931–8940. https://doi.org/10.1073/pnas.1815046116
+
+Sepulveda, A.J., Hutchins, P.R., Forstchen, M., Mckeefry, M. N., & Swigris, A.M. (2020).
+The Elephant in the lab (and field): Contamination in aquatic environmental DNA studies.
+Frontiers in Ecology and Evolution, 8, 609973. https://doi.org/10.3389/fevo.2020.609973
 
 Shogren, A. J., Tank, J. L., Andruszkiewicz, E., Olds, B., Mahon, A. R., Jerde, C. L., &
 Bolster, D. 2017. Controls on eDNA movement in streams: Transport, retention, and
@@ -616,15 +712,23 @@ Plicatus Buchanan, 1800) predominantly consume planthoppers and mosquitoes in
 central Thailand. Acta Chiropterologica, 23(1), 93–106.
 https://doi.org/10.3161/15081109ACC2021.23.1.008
 
-Tournayre, O., Tian, H., Lougheed, D. R., Windle, M. J. S., Lambert, S., Carter, J., Sun,
-Z., Ridal, J., Wang, Y., Cumming, B. F., Arnott, S. E., & Lougheed, S. C. (2024). How to
-barcode (almost all) freshwater biodiversity. Environmental DNA, 6(4), e590.
-https://doi.org/10.1002/edn3.590
+Thuillet, A.C., Morisot, D., Renno, J.F., Scarcelli, N., Serret, J. and Mariac, C. (2024).
+Picturing plant biodiversity from airborne environmental DNA.
+bioRxiv 2024.01.11.571706; DOI: https://doi.org/10.1101/2024.01.11.571706
 
 Tournayre, O., Leuchtmann, M., Filippi-Codaccioni, O., Trillat, M., Piry, S., Pontier, D.,
 Charbonnel, N., & Galan, M. (2020). In silico and empirical evaluation of twelve
 metabarcoding primer sets for insectivorous diet analyses. Ecology and Evolution,
 10(13), 6310–6332. https://doi.org/10.1002/ece3.6362
+
+Tournayre, O., Littlefair, J.E., Garrett, N.R., Allerton, J.J., Brown, A.S., Cristescu, M.E. and
+Clare, E.L., 2025. First national survey of terrestrial biodiversity using airborne eDNA.
+bioRxiv 2025.04.07.647580; DOI: https://doi.org/10.1101/2025.04.07.647580
+
+Tournayre, O., Tian, H., Lougheed, D. R., Windle, M. J. S., Lambert, S., Carter, J., Sun,
+Z., Ridal, J., Wang, Y., Cumming, B. F., Arnott, S. E., & Lougheed, S. C. (2024). How to
+barcode (almost all) freshwater biodiversity. Environmental DNA, 6(4), e590.
+https://doi.org/10.1002/edn3.590
 
 Tournayre, O., Wolfe, R., McCurdy-Adams, H., Chabot, A. A., & Lougheed, S. C.
 (2023). A species-specific digital PCR assay for the endangered blue racer (Coluber
@@ -649,6 +753,10 @@ https://doi.org/10.1016/j.mcp.2020.101683
 Walz, K., Yamahara, K., Michisaki, R., & Chavez, F. 2019. Environmental DNA (eDNA)
 extraction using Qiagen DNeasy Blood and Tissue Kit V.2. Protocols.io.
 https://doi.org/10.17504/protocols.io.n2udgew
+
+Wang, H., Qi, J., Xiao, D., Wang, Z., & Tian, K. (2017). A re-evaluation of dilution for
+eliminating PCR inhibition in soil DNA samples. Soil Biology and Biochemistry, 106, 109-118.
+https://doi.org/10.1016/j.soilbio.2016.12.011
 
 Wilcox, T. M., McKelvey, K. S., Young, M. K., Jane, S. F., Lowe, W. H., Whiteley, A. R., &
 Schwartz, M. K. (2013). Robust detection of rare species using environmental DNA:
@@ -700,3 +808,8 @@ https://doi.org/10.1016/j.jmoldx.2015.01.004
 Zhu, T., & Iwasaki, W. (2023). MultiBarcodeTools: Easy selection of optimal primers for
 eDNA multi-metabarcoding. Environmental DNA, 5(6), 1793-1808.
 https://doi.org/10.1002/edn3.499.499
+
+Zinger, L., Benoiston, A.S., Cuenot, Y., Leroy, C., Louisanna, E., Moreau, L., Petitclerc, F.,
+Piatscheck, F., Orivel, J., Richard-Hansen, C., & Hansen-Chaffard, L. (2025).
+Rainwash eDNA to monitor tropical rainforest biodiversity.
+bioRxiv 2025.02.26.640397; DOI: https://doi.org/10.1101/2025.02.26.640397

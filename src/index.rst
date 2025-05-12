@@ -16,4 +16,5 @@
    sections/Section 9
    sections/Section 10
    sections/Section 11
-   sections/Section 12
+   sections/Glossary
+   sections/References
